@@ -72,7 +72,7 @@ a:active {
 
 .nav {
     color: #eeeeee;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .nav:visited {
@@ -90,12 +90,18 @@ a:active {
     font-weight: 300;
 }
 
-.nav:active {
+.nav#home {
+    color: #bebed0;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.nav#about {
     color: #bebed0;
     font-weight: 300;
     text-decoration: underline;
 }
 
+}
 .button {
     display: inline-block;
     background-color: #eeeeee;
