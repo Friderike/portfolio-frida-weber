@@ -40,19 +40,38 @@ h4 {
    
 }
 a {
-    color: #6ac5d6;
+    color: #6386defe;
     text-decoration: none;
 }
 a:hover {
-    color: #bce6ed;
+    color: #819febfe;
 }
 a:visited {
-    color: #bce6ed;
+    color: #738dcefe;
 
 }
 a:active {
     text-decoration: underline;
     color: bce6ed;
 }
+
+.nav {
+    color: #eeeeee;
+    font-weight: 300;
+}
+.nav:visited {
+    color: #eeeeee;
+    font-weight: 300;
+}
+.nav:hover {
+    color: #bebed0;
+    font-weight: 300;
+}
+.nav:active {
+color: #bebed0;
+font-weight: 300;
+text-decoration: underline;
+}
+
 
 image {width: 100%;}
