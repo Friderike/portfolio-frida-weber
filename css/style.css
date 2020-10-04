@@ -46,6 +46,9 @@ a {
 a:hover {
     color: #819febfe;
 }
+a:focus {
+    color: #819febfe;
+}
 a:visited {
     color: #738dcefe;
 
@@ -67,11 +70,35 @@ a:active {
     color: #bebed0;
     font-weight: 300;
 }
+.nav:focus {
+    color: #bebed0;
+    font-weight: 300;
+}
 .nav:active {
 color: #bebed0;
 font-weight: 300;
 text-decoration: underline;
 }
+
+.button {
+    display: inline-block;
+    background-color: #eeeeee;
+    font-weight: 400;
+    color: #6386defe;
+    padding: 8px;
+    border-radius: 20px;
+    border-bottom: 2px solid #738dcefe;
+}
+.button:hover {
+    background-color:#6386defe ;
+    color: #eeeeee;
+}
+.button:focus {
+    background-color:#6386defe ;
+    color: #eeeeee;
+}
+
+
 
 
 image {width: 100%;}
