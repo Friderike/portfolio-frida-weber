@@ -1,7 +1,10 @@
 body {
-    background-color: #ffffff;
-    
-}
-image {
-width: 100%;
+    background-color: #0C0B10;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#cecece ;
+    }
+image {width: 100%;}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
 }
