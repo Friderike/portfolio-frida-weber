@@ -42,7 +42,7 @@ h4 {
     font-weight: 300;
 }
 
-.touch {
+.text-uppercase {
     text-transform: uppercase;
 
 }
@@ -101,7 +101,6 @@ a:active {
     text-decoration: underline;
 }
 
-}
 .button {
     display: inline-block;
     background-color: #eeeeee;
@@ -125,6 +124,6 @@ a:active {
 
 
 
-image {
+img {
     width: 100%;
 }
