@@ -14,17 +14,15 @@
 <body id="gcf-page">
   <!--Header-->
   <header>
-    <img src="images/Placeholderlogo@4x.png" alt="Logo Frida Design and Art" />
-    <nav>
-      <nav>
+    <img src="images/Placeholderlogo@4x.png" id="logo" alt="Logo Frida Design and Art" />
+    
+    <nav class="nav">
+      <a href="index.html" >Home</a>
+      <a href="work.html" >Work</a>
+      <a href="about.html" >About</a>
+      <a href="contact.html" >Contact</a>
+  </nav>
 
-        <a href="index.html" class="nav">Home</a>
-        <a href="work.html" class="nav">Work</a>
-        <a href="about.html" class="nav">About</a>
-        <a href="contact.html" class="nav">Contact</a>
-
-      </nav>
-    </nav>
   </header>
   <!--End Header-->
 
@@ -170,8 +168,8 @@
           <h4>Mid - Fidelity</h4>
           <picture>
             <source srcset="images/gcf/mobile/m-gcf-project-personalgrey@132.png" media="(max-width:767px)" />
-            <img src="images/gcf/desktop/d-gcf-project-midfid@792.png" alt="Mid - Fidelity Wireframes" />
-          </picture>
+            <img class="hidden-on-mobile" src="images/gcf/desktop/d-gcf-project-midfid@792.png" alt="Mid - Fidelity Wireframes" />
+           </picture>
           </div>
 
         <div>
@@ -182,7 +180,7 @@
             <img src="images/gcf/desktop/d-gcf-project-finaldesign@792.png" alt="Finalized Design" />
           </picture>
           </div>
-      
+    
         </div>
     </section>
     <!--End design process-->
