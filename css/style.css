@@ -18,7 +18,7 @@ body {
     font-kerning: auto;
 }
 
-
+ /* header desktop*/
 header {
     background-color: #08090c;
     width: 100%;
@@ -173,6 +173,9 @@ img {
     .container {
         padding: 16px;
     }
+.row {
+    margin: 56px 0;px
+}
 
 .social-icons {
     width: 32px;
