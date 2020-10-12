@@ -11,20 +11,20 @@
 body {
     background-color: #08090c;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #F5CA9B;
+    color: #f4e5d5;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.4rem;
     font-kerning: auto;
 }
 
- /* header desktop*/
+ 
 header {
     background-color: #08090c;
     width: 100%;
-    height: 240px;
+    height: 200px;
     border-bottom: 1px solid #F5CA9B;
-    margin: 0 0 64px;
+    margin: 0 0 24px;
 }
 
 
@@ -35,7 +35,9 @@ header {
 h1,
 h2,
 h3,
-h4 {
+h4, 
+h5 {
+    color:#F5CA9B ;
     line-height: 1.4;
 }
 
@@ -44,6 +46,8 @@ h1 {
     font-family: linotype-didot,serif;
     font-weight: 700;
     font-style: normal;
+    padding: 0;
+    margin: 0 0 4px 0;
 }
 
 h2 {
@@ -57,12 +61,18 @@ h3 {
     font-size: 2.2rem;
     font-weight: 400;
     font-style: italic;
-   tyle: italic;
+    font-style: italic;
 }
 
 h4 {
     font-family: linotype-didot,serif;
     font-size: 2.2rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: linotype-didot,serif;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -156,6 +166,7 @@ a:active {
     .hidden-on-desktop {
     display: none;
     }
+    
 }
 
 @media (max-width: 639px) {
@@ -174,11 +185,26 @@ img {
         padding: 16px;
     }
 .row {
-    margin: 56px 0;px
+    margin: 56px 0px; 
 }
+
+.text-centered {
+   text-align: center;
+}
+
+.columns-50 {
+    width: 50%;
+
+}
+
+.mobile-profile {
+    width: 28%;
+    height: 28%;
+    margin: 42px auto 0;
+}
+
 
 .social-icons {
     width: 32px;
     height: 32px;
 }
-
