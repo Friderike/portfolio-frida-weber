@@ -16,8 +16,12 @@ body {
     font-weight: 400;
     line-height: 2.4rem;
     font-kerning: auto;
+    
 }
 
+ul {
+    list-style: none;
+}
  
 header {
     background-color: #08090c;
@@ -89,22 +93,23 @@ h5 {
 
 }
 
+
 a {
-    color: #6e8cd8fe;
+    color: #8ea1d2fe;
     text-decoration: none;
     font-size: 1.8rem;
 }
 
 a:hover {
-    color: #819febfe;
+    color: #a9b2cbfe;
 }
 
 a:focus {
-    color: #819febfe;
+    color: #a9b2cbfe;
 }
 
 a:visited {
-    color: #738dcefe;
+    color: #a9b2cbfe;
 
 }
 
@@ -143,26 +148,7 @@ a:active {
     text-decoration: underline;
 }
 
-.button {
-    display: inline-block;
-    border: 1px solid #F5CA9B;
-    background-color: transparent;
-    font-weight: 400;
-    color: #F5CA9B;
-    padding: 8px;
-    border-radius: 8px;
-    
-}
 
-.button:hover {
-    background-color: #F5CA9B;
-    color: #08090c;
-}
-
-.button:focus {
-    background-color: #F5CA9B;
-    color: #08090c;
-}
 
 
 
@@ -184,23 +170,57 @@ img {
 
     
     /* layout styling*/
-
-    #intro-text {
-    margin: 0 0 48px 0;
-    }
     
     .container {
         padding: 16px;
+       
     }
-.row {
-    margin: 56px 0px; 
+    
+    .row { 
+        margin: 56px 0; 
+        }
+    
+.columns-50-left {
+   
+    width: 50%;
+    display: inline-block;
+    margin: 24px 0 0 0px;
+    
+    
+    }
+.columns-50-right {
+    width: 50%;
+    margin: 24px 0 0 0px;
+    display: inline-block;
+    position: relative;
+    top: 0rem;
+    padding: 0 0 0 60px;
+    float: right;
+   
 }
-
+#skills {
+    width: 100%;
+    
+}
 .text-centered {
    text-align: center;
 }
 
-@media only screen and (max-width: 640px) {
+.social-icons {
+    display: inline-block;
+}
+.social-icons > a {
+    width: 32px;
+    height: 32px;
+    margin: 16px 8px 16px 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+@media only screen and (max-width: 639px) {
     .body-text-mobile {
         font-size: 1.6rem;
        list-style: none;
@@ -213,6 +233,11 @@ img {
        .row {
            margin: 32px 0;
        }
+       .row > p {
+           margin: 0 0 8px 0;
+
+       }
+
         h1 {
         font-size: 2.4rem;
         margin: 0 0 16px 0
@@ -224,7 +249,7 @@ img {
          }
         h3 {
             font-size: 2.2rem;
-            margin: 0 0 16px 0
+            margin: 0 0 8px 0
         }
 
         h4 {
@@ -235,39 +260,85 @@ img {
             font-size: 1.4rem;
         }
         #title-resume {
-            font-family: font-family: linotype-didot,serif;;
+            font-family: linotype-didot,serif;
             font-size: 2.2rem;
             font-weight: 400;
-            margin: 0 0 4px 0;
-            
+           margin: 0 0 4px 0;
         }
+        
 
-}
+        /* layout index*/
+        #homepage .row {
+            margin: 8px 0 64px;
 
-.columns-50-left {
-   
-    width: 50%;
-    display: inline-block;
-    margin: 24px 0 0 0px;
-    
-    }
-.columns-50-right {
-    width: 50%;
-    margin: 24px 0 0 0px;
-    display: inline-block;
+            }
+            #homepage h1 {
+                margin: 0 0 32px;        
+            }
+
+            #homepage h3 {
+                margin: 0 0 16px;
+                position: relative;
+                left: 5%;
+            }
+
+        #homepage img {
+            width: 89%;
+            left: 5% ;
+            right: 5%;
+            position: relative;
+        }
+       }
+
+
+#aag.bg {
+    width: 89%;
+    height: 68% ;
+    background-color: ivory;
+    left: 5%;
+    right: 5%;
     position: relative;
-    top: 0rem;
-  
-    float: right;
-   
 }
-#skills {
-    width: 100%;
+
+
+   #button {
+        display: inline-block;
+        width: 58%;
+        color: #F5CA9B;
+        border: 1px solid #F5CA9B;
+        background-color: transparent;
+        font-weight: 400;
+        text-align: center;
+        padding: 4px;
+        border-radius: 6px;
+        margin: 32px 0 16px;
+        left: 50%;
+        right: 50%;
+        transform: translatex(-50%);
+        position: relative;
+       
+        
+    }
     
+    .button:hover {
+        background-color: #F5CA9B;
+        color: #08090c;
+    }
+    
+    .button:focus {
+        background-color: #F5CA9B;
+        color: #08090c;
+    }
+
+
+.footer h4 a {
+   margin: 16px 0 8px;
 }
+.footer p {
+   margin: 0 0 8px;
 
-
-.social-icons {
-    width: 32px;
-    height: 32px;
+}
+.footer {
+    border-top: 1px solid #F5CA9B;
+    margin: 24px 0 4px 0;
 }
