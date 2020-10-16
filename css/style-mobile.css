@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+@media (max-width: 639px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .body-text-mobile {
+        font-size: 1.6rem;
+        list-style: none;
+    }
+
+    .mobile-profile {
+        width: 28%;
+        height: 28%;
+        margin: 42px auto 0;
+    }
+
+    header {
+       max-height: 140px;
+       min-height: 139px;
+    }
+
+    .row {
+        margin: 32px 0;
+    }
+
+    .row>p {
+        margin: 0 0 8px 0;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin: 0 0 16px 0
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        margin: 0 0 16px 0;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        margin: 0 0 8px 0
+    }
+
+    h4 {
+        font-size: 2.0rem;
+        margin: 0 0 16px 0;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    #title-resume {
+        font-family: linotype-didot, serif;
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin: 0 0 4px 0;
+    }
+
+    #logo {
+        width: 11.5rem;
+    }
+   

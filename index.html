@@ -13,18 +13,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
    <link rel="icon" href="images/favicomatic/favicon.ico" />
    <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/style-mobile.css">
+   
 </head>
 
 <body id="homepage">
    <!--Header-->
    <header>
-
-      <nav class="nav">
-         <a href="index.html" class="nav" id="home">Home</a>
-         <a href="work.html" class="nav">Work</a>
-         <a href="about.html" class="nav">About</a>
-         <a href="contact.html" class="nav">Contact</a>
-      </nav>
       <div class="container" id="logo">
          <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 277 297.2" style="enable-background:new 0 0 277 297.2;" xml:space="preserve">
@@ -705,15 +700,20 @@
             </linearGradient>
             <polygon id="Path_54_" class="st56" points="31.7,119.9 4.2,95.3 32.3,119.3 " />
          </svg>
-      </div>
-      <!--end logo-->
-
-
-
+      </div><!--end logo-->
+      <ul>
+      <nav class="nav">
+         <a href="index.html" class="nav" id="home">Home</a>
+         <a href="work.html" class="nav">Work</a>
+         <a href="about.html" class="nav">About</a>
+         <a href="contact.html" class="nav">Contact</a>
+      </nav>
+   </ul>
+   
    </header>
    <!--End Header-->
 
-   <main>
+  <main>
 
       <!--Hero Section-->
       <div class="row">
@@ -735,7 +735,7 @@
 
       <!--Work gcf-->
       <div id="my-work">
-         <div class="container">
+         <div class="container-homepage-work">
 
             <h1 class="text-centered">
                Design Projects
@@ -753,7 +753,7 @@
                      <img src="images/gcf/desktop/d-home-gcf-cover.png" alt="Cover Go Cruelty Free" />
                   </picture>
 
-                  <div #class="row">
+                  <div class="row">
                      <p>
                         Go Cruelty Free is a responsive e-commerce web app for
                         exclusively cruelty free products. <a href="go-cruelty-free2.html">...more</a> </p>
@@ -807,7 +807,7 @@
                         alt="Go Cruelty Free Cover Image" />
                   </picture>
 
-                  <div id="homepage" class="row">
+                  <div class="row">
                      <p>
                         A responsive web app for people who are looking for restaurants
                         catering to special dietary needs. <a href="treats.html">...more</a>
@@ -825,25 +825,24 @@
             </div>
             <!--end 2nd row for 2 columns-->
          </div>
-         <!--"my work section-->
-      </div>
+         
+      </div><!--"my work section-->
 
    </main>
-
-   <footer class="footer">
-
-      <div id="contact">
-         <div class="container">
-
+   
+   <div id="contact">
+         
+         <footer class="footer"> 
+      
             <h4 class="text-uppercase">Get in Touch</h4>
-            <p class="body-text-mobile">
+            <p>
                Like what you see? I am available for new projects and happy to dicuss opportunities.
             </p>
             <div>
                <a href="mailto:fridericia@gmail.com" class="body-text-mobile">Email me</a>
             </div>
 
-
+         </footer>
 
 
 
@@ -908,20 +907,15 @@
                </a>
 
             </div>
-         </div>
-         <!--end conatiner-->
-
-
-
-         <div class="container">
+       
             <p class="small-bodytext">
                Copyright Frida Weber 2020
             </p>
-         </div>
+      
       </div>
       <!--end id contact-->
-
-   </footer>
+   
+   
 </body>
 
 </html>
