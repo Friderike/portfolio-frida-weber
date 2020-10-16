@@ -68,14 +68,14 @@ h1 {
     font-weight: 700;
     font-style: normal;
     padding: 0;
-    margin: 0 0 4px 0;
+   padding: 0 0 4px 0;
 }
 
 h2 {
     font-family: linotype-didot, serif;
     font-size: 2.8rem;
     font-weight: 400;
-    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
 }
 
 h3 {
@@ -195,12 +195,12 @@ img {
 
 
 .container {
-   width: 100%;
-}
-   .container p {
-       padding: 5%;
-   }
-
+    width: 100%;
+ }
+    .container p {
+        padding: 5%;
+    }
+ 
 
 .row {
     margin: 56px 0;
@@ -212,10 +212,6 @@ img {
     padding: 0 5% 8px 5%;
 }
 
-#skills {
-    width: 100%;
-
-}
 
 .text-centered {
     text-align: center;
@@ -228,32 +224,34 @@ img {
 
 
 
-    #homepage.row {
-        margin: 8px 0 64px;
-       
-    }
+#homepage .row {
+    padding: 8px 0 0px;
+   margin-top: 0%;
+   
+}
 
-    #homepage h1 {
-        margin: 0 0 32px;
-        
-    }
-
-    #homepage h3 {
-        margin: 56px 0 16px;
-        position: relative;
-        left: 5%;
-    }
+#homepage h1 {
+    margin: 0px;
     
-    
+}
 
-    #homepage img {
-        width: 89%;
-        left: 5%;
-        right: 5%;
-        position: relative;
-        margin: auto;
+#homepage h3 {
+    padding: 56px 0 8px 5%;
+    position: relative;
      
-    }
+ }
+ 
+ 
+ 
+ #homepage img {
+    width: 89%;
+    left: 5%;
+    right: 5%;
+    position: relative;
+    margin: 0 0 8px 0;
+   
+ 
+}
 
 
 
@@ -303,7 +301,6 @@ img {
     justify-content: space-between;
     padding: 0 5% 0;
   
-
 }
 
  
@@ -325,7 +322,7 @@ img {
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    margin: 32px 0 16px;
+    margin: 48px 0 16px;
     left: 50%;
     right: 50%;
     transform: translatex(-50%);
@@ -347,12 +344,11 @@ img {
 
 
 .footer h4 a {
-    margin: 16px 0 8px;
+    padding: 16px 0 8px;
 }
 
 #contact .footer p {
-    margin: 0 0 8px;
-    
+    padding: 0 0 8px;
     position: relative;
     left: 0;
     
