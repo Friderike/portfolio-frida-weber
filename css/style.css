@@ -214,6 +214,7 @@ img {
 
 .container {
     width: 100%;
+    max-width: 120rem;
  }
     .container p {
         padding: 5%;
@@ -233,6 +234,7 @@ img {
 
 .text-centered {
     text-align: center;
+    margin: 0;
 }
 
 ul {
@@ -263,7 +265,6 @@ ul {
     position: relative;
      
  }
- 
  
  
  #homepage img {
@@ -311,7 +312,9 @@ ul {
 /* layout about*/
 /*******************************************/
 
-
+#about-page h1 {
+    margin: 0px;
+}
 .desktop-profile {
     width: 14%;
     margin: 42 auto 0;
