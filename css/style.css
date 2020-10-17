@@ -32,12 +32,13 @@ header {
     background-color: #08090c;
    border-bottom: 1px solid #F5CA9B;
     margin: 0 0 40px;
-   display: flex;
+    display: flex;
     padding: 0;
-    min-width: 100%;
-     min-height: 25rem;
+    width: 100%;
+    height: 40rem;
+    
 }
- 
+
 header>nav {
    min-height: min-content;
     order: 1;
@@ -46,25 +47,25 @@ header>nav {
   align-self: flex-end;
    margin-left: 5%;
    padding-top: 8px;
+   list-style: none;
   
 
 }
 
- #logo {
+ #logo  {
     width: 24rem;
     min-width: 15rem;
     padding-top: 16px;
     padding-bottom: 32px;
     order: 2;
-  /* align-self: center;
-    position: relative;
-    transform: translateX(10%);*/
+   align-self: center;
+    transform: translateX(10%);
     margin-top: 0;
    margin: auto;
-    transform: translatex(-50%);
+   transform: translatex(-50%);
     position: relative;
  
- }
+ } 
  
    
 
@@ -159,7 +160,7 @@ a:active {
    
    }
 
-.nav ul>a {
+.nav ul li>a {
     color: #F5CA9B;
     font-size: 1.6rem;
     font-weight: 300;
@@ -180,7 +181,7 @@ a:active {
 
 .nav#home {
     color: #F5CA9B;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     text-decoration: underline;
     padding-left: 0;
@@ -188,7 +189,7 @@ a:active {
 
 .nav#about {
     color: #F5CA9B;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -215,6 +216,8 @@ img {
 .container {
     width: 100%;
     max-width: 120rem;
+    margin-left: 5%;
+    margin-right: 5%;
  }
     .container p {
         padding: 5%;
@@ -228,7 +231,7 @@ img {
 
 .row p{
     margin: 0 0 8px 0;
-    padding: 0 5% 8px 5%;
+    padding: 0 5% 8px;
 }
 
 
@@ -317,7 +320,7 @@ ul {
 }
 .desktop-profile {
     width: 14%;
-    margin: 42 auto 0;
+    margin: 42px auto 0;
     position: relative;
 
 }

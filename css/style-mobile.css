@@ -76,13 +76,15 @@ html {
     }
 
     #logo {
-        width: 11.5rem;
-       position: relative;
-        margin-top: 0;
-        margin: auto;
-        transform: translatex(-50%);
+        width: 15rem;
+        min-width: 15rem;
+        padding-top: 8px;
+        padding-bottom: 32px;
+        order: 2;
+     margin-top: 0;
+       margin: auto;
+       transform: translatex(-50%);
+        position: relative;
      
-
-
     }
-   
+}
