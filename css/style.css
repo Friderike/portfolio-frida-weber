@@ -26,32 +26,48 @@ body {
 
 }
 
-ul {
-    list-style: none;
-}
+
 
 header {
     background-color: #08090c;
-    
-    height: 200px;
-    border-bottom: 1px solid #F5CA9B;
-    margin: 0 0 24px;
-    display: flex;
+   border-bottom: 1px solid #F5CA9B;
+    margin: 0 0 40px;
+   display: flex;
     padding: 0;
     min-width: 100%;
-
+     min-height: 25rem;
 }
-
-#logo {
-    width: 18rem;
-    min-width: 15rem;
+ 
+header>nav {
+   min-height: min-content;
+    order: 1;
+    display: flex;
     display: inline-block;
-    position: relative;
-    top: 8px;
-    left: 0;
-    padding: 16px;
-    
+  align-self: flex-end;
+   margin-left: 5%;
+   padding-top: 8px;
+  
+
 }
+
+ #logo {
+    width: 24rem;
+    min-width: 15rem;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    order: 2;
+  /* align-self: center;
+    position: relative;
+    transform: translateX(10%);*/
+    margin-top: 0;
+   margin: auto;
+    transform: translatex(-50%);
+    position: relative;
+ 
+ }
+ 
+   
+
 
 h1,
 h2,
@@ -140,15 +156,16 @@ a:active {
 .nav {
     display: inline-block;
     position: relative;
+   
    }
 
-.nav>a {
+.nav ul>a {
     color: #F5CA9B;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
-    padding: 0 15px;
+    padding: 0 15px 0 0;
     display: inline-block;
-    margin-top: 24px;
+
 }
 
 .nav:hover {
@@ -166,6 +183,7 @@ a:active {
     font-size: 1.4rem;
     font-weight: 400;
     text-decoration: underline;
+    padding-left: 0;
 }
 
 .nav#about {
@@ -215,6 +233,11 @@ img {
 
 .text-centered {
     text-align: center;
+}
+
+ul {
+    list-style: none;
+   
 }
 
 
