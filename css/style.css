@@ -22,6 +22,8 @@ body {
     line-height: 2.4rem;
     font-kerning: auto;
     margin: 0px;
+   width: 100%;
+    
  
 
 }
@@ -44,7 +46,7 @@ header>nav {
     order: 1;
     display: flex;
     display: inline-block;
-  align-self: flex-end;
+  align-self: flex-start;
    margin-left: 5%;
    padding-top: 8px;
    list-style: none;
@@ -59,16 +61,13 @@ header>nav {
     padding-bottom: 32px;
     order: 2;
    align-self: center;
-    transform: translateX(10%);
-    margin-top: 0;
-   margin: auto;
+  margin: 0 auto;
    transform: translatex(-50%);
     position: relative;
+    display: inline-block;
  
  } 
  
-   
-
 
 h1,
 h2,
@@ -157,7 +156,7 @@ a:active {
 .nav {
     display: inline-block;
     position: relative;
-   
+  
    }
 
 .nav ul li>a {
@@ -214,11 +213,8 @@ img {
 
 
 .container {
-    width: 100%;
-    max-width: 120rem;
-    margin-left: 5%;
-    margin-right: 5%;
- }
+    width: 100%;}
+  
     .container p {
         padding: 5%;
     }
@@ -315,6 +311,7 @@ ul {
 /* layout about*/
 /*******************************************/
 
+
 #about-page h1 {
     margin: 0px;
 }
@@ -326,10 +323,10 @@ ul {
 }
 #skills {
     min-width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 5% 0;
-  
 }
 
  
@@ -339,11 +336,20 @@ ul {
 /*******************************************/
 
 
-
+.container-button {
+    width: 58%;
+    max-width: 511px;
+    left: 50%;
+    right: 50%;
+    transform: translatex(-50%);
+    position: relative;
+    
+}
 #button {
     display: inline-block;
-    min-width: 58%;
+    /*min-width: 58%;*/
     max-width: 511px;
+    width: 100%;
     color: #F5CA9B;
     border: 1px solid #F5CA9B;
     background-color: transparent;
@@ -351,11 +357,11 @@ ul {
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    margin: 48px 0 16px;
-    left: 50%;
+    margin: 48px 0 32px;
+    /*left: 50%;
     right: 50%;
     transform: translatex(-50%);
-    position: relative;
+    position: relative;*/
     
 
 
