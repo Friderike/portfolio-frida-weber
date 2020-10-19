@@ -8,7 +8,7 @@
 html {
    margin: 0px;
     font-size: 62.5%;
-   width: 100%;
+  
    
   
 }
@@ -54,17 +54,20 @@ header>nav {
 
 }
 
- #logo  {
+
+#logo  {
     width: 24rem;
     min-width: 15rem;
     padding-top: 16px;
-    padding-bottom: 32px;
-    order: 2;
-   align-self: center;
-  margin: 0 auto;
-   transform: translatex(-50%);
+    min-height: fit-content;
+    /*padding-bottom: 32px;*/
+    display: flex;
+   order: 2;
+  transform: translateX(50%);
+  
     position: relative;
-    display: inline-block;
+   display: inline-block;
+   
  
  } 
  
@@ -98,7 +101,6 @@ h3 {
     font-family: linotype-didot, serif;
     font-size: 2.6rem;
     font-weight: 400;
-    font-style: italic;
     font-style: italic;
     margin: 0 0 16px 0;
     width: 100%;
@@ -135,13 +137,14 @@ a {
     font-size: 1.8rem;
 }
 
+a:focus {
+    color: #a9b2cbfe;
+}
+
 a:hover {
     color: #a9b2cbfe;
 }
 
-a:focus {
-    color: #a9b2cbfe;
-}
 
 a:visited {
     color: #a9b2cbfe;
@@ -213,11 +216,12 @@ img {
 
 
 .container {
-    width: 100%;}
+    width: 100%;
+    padding: 0 5% 0;}
   
-    .container p {
+    /*.container p {
         padding: 5%;
-    }
+    }*/
  
 
 .row {
@@ -308,28 +312,7 @@ ul {
 /*******************************************/
 
 
-#aag-index.bg-grad {
-    width: 89vw;
-    height: 45%;
-    left: 5%;
-    right: 5%;
-    position: relative;
-    background-image: linear-gradient(110deg, #ffffff, #9A96AD);
 
-}
-
-#aag-index img {
-    position: relative;
-    width: 45%;
-    padding-top: 32px;
-
-}
-
-#aag-index h5 {
-    color: #646A8A;
-    padding-top: 16px;
-    padding-left: 16px;
-}
 
 
 /*******************************************/
@@ -394,18 +377,8 @@ ul {
     padding: 4px;
     border-radius: 6px;
     margin: 48px 0 32px;
-    /*left: 50%;
-    right: 50%;
-    transform: translatex(-50%);
-    position: relative;*/
-    
+   
 
-
-}
-
-.button:hover {
-    background-color: #F5CA9B;
-    color: #08090c;
 }
 
 .button:focus {
@@ -413,19 +386,26 @@ ul {
     color: #08090c;
 }
 
-
-.footer h4 a {
-    padding: 16px 0 8px;
+.button:hover {
+    background-color: #F5CA9B;
+    color: #08090c;
 }
 
-#contact .footer p {
+.footer a {
+    padding: 16px 0 8px;
+}
+.footer h4 {
+    padding-left: 0;
+}
+
+.footer p {
     padding: 0 0 8px;
     position: relative;
     left: 0;
     
    }
 
-#contact .footer {
+.footer {
     border-top: 1px solid #F5CA9B;
     margin: 24px 0 4px 0;
     padding: 16px 5% 0;
@@ -433,15 +413,11 @@ ul {
     position: relative;
     left: 0%;}
 
-    .social-icons {
-        display: inline-block;
-        padding: 0 5%;
-    }
-    
+
     .social-icons>a {
         width: 32px;
         height: 32px;
-        margin: 16px 8px 16px 0;
+        margin: 0px 16px 32px 0;
         display: inline-block;
         position: relative;
     }
