@@ -29,7 +29,6 @@ body {
 }
 
 
-
 header {
     background-color: #08090c;
    border-bottom: 1px solid #F5CA9B;
@@ -38,38 +37,21 @@ header {
     padding: 0;
     width: 100%;
     height: 40rem;
-    
 }
 
-header>nav {
-   min-height: min-content;
-    order: 1;
-    display: flex;
-    display: inline-block;
-  align-self: flex-start;
-   margin-left: 5%;
-   padding-top: 8px;
-   list-style: none;
-  
-
-}
-
-
-#logo  {
+#logo {
     width: 24rem;
     min-width: 15rem;
     padding-top: 16px;
-    min-height: fit-content;
-    /*padding-bottom: 32px;*/
-    display: flex;
-   order: 2;
-  transform: translateX(50%);
-  
+    padding-bottom: 32px;
+   display: flex;
+    order: 2;
+    align-self: center;
+    /*display: inline-block;*/
     position: relative;
-   display: inline-block;
-   
- 
- } 
+
+}
+
  
 
 h1,
@@ -156,11 +138,19 @@ a:active {
     color: #bcceed;
 }
 
-.nav {
-    display: inline-block;
-    position: relative;
-  
-   }
+
+
+   header>nav {
+    min-height: min-content;
+     order: 1;
+     display: flex;
+     align-self: flex-start;
+     margin-left: 5%;
+    padding-top: 8px;
+    list-style: none;
+   
+ 
+ }
 
 .nav ul li {
    display: inline-block;
@@ -171,7 +161,6 @@ a:active {
     color: #F4E5D5;
     font-size: 1.6rem;
     font-weight: 300;
-    
     display: inline-block;
 
 }
@@ -334,12 +323,16 @@ ul {
     position: relative;
 
 }
-#skills {
-    min-width: 100%;
-    max-width: 100%;
+.columns {
+    /*min-width: 100%;
+    max-width: 100%;*/
+    flex-basis: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 5% 0;
+}
+
+.column-content {
+    padding: 0 5% 0 0;
 }
 
 
