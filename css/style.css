@@ -27,7 +27,10 @@ body {
  
 
 }
-
+ .wrapper {
+     width: 80%;
+     margin: 0 auto;
+ }
 
 header {
     background-color: #08090c;
@@ -47,11 +50,11 @@ header {
    display: flex;
     order: 2;
     align-self: center;
-    /*display: inline-block;*/
+    display: inline-block;
     position: relative;
 
 }
-
+ 
  
 
 h1,
@@ -83,7 +86,7 @@ h3 {
     font-family: linotype-didot, serif;
     font-size: 2.6rem;
     font-weight: 400;
-    font-style: italic;
+    /*font-style: italic;*/
     margin: 0 0 16px 0;
     width: 100%;
 }
@@ -199,7 +202,6 @@ a:active {
 }
 
 
-
 img {
     width: 100%;
 }
@@ -209,11 +211,11 @@ img {
 /*******************************************/
 
 
-.container {
+/*.container {
     width: 100%;
     padding: 0 5% 0;}
   
-    /*.container p {
+   container p {
         padding: 5%;
     }*/
  
@@ -223,10 +225,10 @@ img {
 
 }
 
-.row p{
+/*row p{
     margin: 0 0 8px 0;
     padding: 0 5% 8px;
-}
+}*/
 
 
 .text-centered {
@@ -269,6 +271,7 @@ ul {
     /* layout index*/
 /*******************************************/
 
+}
 
 
 #homepage .row {
@@ -283,20 +286,16 @@ ul {
 }
 
 #homepage h3 {
-    padding: 56px 0 8px 5%;
-    position: relative;
-     
- }
+     padding: 56px 0 16px 0;
+   }
  
- 
+
  #homepage img {
     width: 89%;
-    left: 5%;
-    right: 5%;
+  
     position: relative;
     margin: 0 0 8px 0;
-   
- 
+  
 }
 
 
