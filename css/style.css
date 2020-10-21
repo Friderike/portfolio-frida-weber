@@ -42,7 +42,7 @@ header {
     height: 40rem;
 }
 
-.logo {
+#logo {
     width: 24rem;
     min-width: 15rem;
     padding-top: 16px;
@@ -55,7 +55,10 @@ header {
 
 }
  
- 
+ /*******************************************/
+/* layout styling*/
+/*******************************************/
+
 
 h1,
 h2,
@@ -206,29 +209,17 @@ img {
     width: 100%;
 }
 
-/*******************************************/
-/* layout styling*/
-/*******************************************/
-
-
-/*.container {
-    width: 100%;
-    padding: 0 5% 0;}
-  
-   container p {
-        padding: 5%;
-    }*/
- 
 
 .row {
     margin: 56px 0;
 
 }
 
-/*row p{
-    margin: 0 0 8px 0;
-    padding: 0 5% 8px;
-}*/
+.row p{
+ 
+    padding: 0 0 8px 5%;
+    
+}
 
 
 .text-centered {
@@ -236,36 +227,12 @@ img {
     margin: 0;
 }
 
+
 ul {
     list-style: none;
    
 }
-/*.images-with-text {
-   min-height: 390px;
-  background-image: url('../images/aag/desktop/d-aag-home-cover@792.png');
-    background-size: cover;
-    max-width: 89%;
-    background-position: center;
-    margin: auto;
-    background-repeat: no-repeat;
-    display: flex;
 
-}
-.images-with-text h4{
-    display: flex;
-    align-self: flex-start;
-    margin: 0;
-    padding-top: 40px;
-    
-}
-
-.images-with-text img {
-    display: flex;
-    align-self: center;
-    margin: 0;
-    width: 89%;
-    
-}*/
 
 /*******************************************/
     /* layout index*/
@@ -285,10 +252,8 @@ ul {
 
  #homepage img {
     width: 89%;
-  
-    position: relative;
+   position: relative;
     margin: 0 0 8px 0;
-  
 }
 
 
