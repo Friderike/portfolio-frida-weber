@@ -42,7 +42,7 @@ header {
     height: 40rem;
 }
 
-#logo {
+.logo {
     width: 24rem;
     min-width: 15rem;
     padding-top: 16px;
@@ -71,7 +71,7 @@ h1 {
     font-family: linotype-didot, serif;
     font-weight: 700;
     font-style: normal;
-    padding: 0;
+    margin: 0;
    padding: 0 0 4px 0;
 }
 
@@ -107,7 +107,7 @@ h5 {
 .small-bodytext {
     font-size: 1.4rem;
     font-weight: 300;
-    padding: 0 5%;
+    padding: 0;
 }
 
 .text-uppercase {
@@ -143,7 +143,7 @@ a:active {
 
 
 
-   header>nav {
+  header>nav {
     min-height: min-content;
      order: 1;
      display: flex;
@@ -154,7 +154,7 @@ a:active {
    
  
  }
-
+ 
 .nav ul li {
    display: inline-block;
    padding: 0 15px 0 0;
@@ -271,18 +271,11 @@ ul {
     /* layout index*/
 /*******************************************/
 
-}
-
 
 #homepage .row {
     padding: 8px 0 0px;
    margin-top: 0%;
    
-}
-
-#homepage h1 {
-    margin: 0px;
-    
 }
 
 #homepage h3 {
@@ -313,9 +306,6 @@ ul {
 /*******************************************/
 
 
-#about-page h1 {
-    margin: 0px;
-}
 .desktop-profile {
     width: 14%;
     margin: 42px auto 0;
@@ -390,17 +380,13 @@ ul {
 
 .footer a {
     padding: 16px 0 8px;
+    
 }
 .footer h4 {
     padding-left: 0;
 }
 
-.footer p {
-    padding: 0 0 8px;
-    position: relative;
-    left: 0;
-    
-   }
+
 
 .footer {
     border-top: 1px solid #F5CA9B;
