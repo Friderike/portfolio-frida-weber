@@ -17,6 +17,11 @@ html {
 
 @media  (max-width: 639px) {
 
+body {
+     font-size: 1.6rem;
+     line-height: 2.2rem;
+}
+
     header {
         height: 4.8rem;
         /*border-bottom: 1px solid #F5CA9B;*/
@@ -45,11 +50,10 @@ html {
      }
  
    
-   
-    .body-text-mobile {
+    /*.body-text-mobile {
         font-size: 1.6rem;
         list-style: none;
-    }
+    }*/
 
     .mobile-profile {
         width: 28%;
@@ -120,7 +124,6 @@ html {
         margin: 0;
       }
     
-    
      #homepage img {
         width: 89%;
         left: 5%;
@@ -130,6 +133,10 @@ html {
        margin: 0 auto 8px;
     }
 
+
+/*******************************************/
+    /* footer*/
+/*******************************************/
 
  .footer-content {
     width: 80%;
