@@ -2,15 +2,12 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-  
+
 }
 
 html {
-   margin: 0px;
+    margin: 0px;
     font-size: 62.5%;
-  
-   
-  
 }
 
 body {
@@ -22,19 +19,23 @@ body {
     line-height: 2.4rem;
     font-kerning: auto;
     margin: 0px;
-   width: 100%;
-    
- 
-
+    width: 100%;
 }
- .wrapper {
-     width: 80%;
-     margin: 0 auto;
- }
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
 
 header {
+    height: 8rem;
+    /*border-bottom: 1px solid #F5CA9B;*/
+    margin-bottom: 64px;
+}
+
+header.index {
     background-color: #08090c;
-   border-bottom: 1px solid #F5CA9B;
+    border-bottom: 1px solid #F5CA9B;
     margin: 0 0 40px;
     display: flex;
     padding: 0;
@@ -47,18 +48,17 @@ header {
     min-width: 15rem;
     padding-top: 16px;
     padding-bottom: 32px;
-   display: flex;
+    display: flex;
     order: 2;
     align-self: center;
     display: inline-block;
     position: relative;
 
 }
- 
- /*******************************************/
+
+/*******************************************/
 /* layout styling*/
 /*******************************************/
-
 
 h1,
 h2,
@@ -75,7 +75,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     margin: 0;
-   padding: 0 0 4px 0;
+    padding: 0 0 4px 0;
 }
 
 h2 {
@@ -115,7 +115,15 @@ h5 {
 
 .text-uppercase {
     text-transform: uppercase;
+}
 
+.text-centered {
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
 }
 
 
@@ -144,21 +152,19 @@ a:active {
     color: #bcceed;
 }
 
-  header>nav {
+header>nav {
     min-height: min-content;
-     order: 1;
-     display: flex;
-     align-self: flex-start;
-     margin-left: 5%;
+    order: 1;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 5%;
     padding-top: 8px;
     list-style: none;
-   
- 
- }
- 
+}
+
 .nav ul li {
-   display: inline-block;
-   padding: 0 15px 0 0;
+    display: inline-block;
+    padding: 0 15px 0 0;
 }
 
 .nav ul li>a {
@@ -166,17 +172,14 @@ a:active {
     font-size: 1.6rem;
     font-weight: 300;
     display: inline-block;
-
 }
 
 .nav:hover {
     font-weight: 600;
-
 }
 
 .nav:focus {
     font-weight: 600;
-
 }
 
 .nav#home {
@@ -206,55 +209,51 @@ img {
     width: 100%;
 }
 
-
 .row {
     margin: 56px 0;
-
 }
 
 .row p {
- 
     padding: 0 0 8px;
     width: 89%;
-    
 }
 
 
+.columns {
+    /*min-width: 100%;
+    max-width: 100%;*/
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
 
-.text-centered {
-    text-align: center;
-    margin: 0;
 }
 
-
-ul {
-    list-style: none;
-   
+.column-content {
+    padding: 0 5% 0 0;
 }
 
 
 /*******************************************/
-    /* layout index*/
+/* layout index*/
 /*******************************************/
 
 
 #homepage .row {
     padding: 8px 0 0px;
-   margin-top: 0%;
-   
+    margin-top: 0%;
+
 }
 
 #homepage h3 {
     padding: 56px 0 16px 0;
-   }
- 
-
- #homepage img {
-    width: 89%;
-   position: relative;
-    margin: 0 0 8px 0;
 }
 
+
+#homepage img {
+    width: 89%;
+    position: relative;
+    margin: 0 0 8px 0;
+}
 
 
 /*******************************************/
@@ -276,30 +275,18 @@ ul {
     position: relative;
 
 }
-.columns {
-    /*min-width: 100%;
-    max-width: 100%;*/
-    flex-basis: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.column-content {
-    padding: 0 5% 0 0;
-}
 
 
- /*******************************************/
+/*******************************************/
 /* GO Cruelty Free Project*/
 /*******************************************/
 
 
-#gcf-project h2, h4 {
+/*#gcf-projecth2h4 {
     padding: 56px 0 8px 5%;
     position: relative;
-     
- }
- 
+}*/
+
 
 /*******************************************/
 /* Button & Footer*/
@@ -313,8 +300,9 @@ ul {
     right: 50%;
     transform: translatex(-50%);
     position: relative;
-    
+
 }
+
 #button {
     display: inline-block;
     max-width: 511px;
@@ -326,8 +314,8 @@ ul {
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    margin: 48px 0 32px;
-   
+    margin: 48px 0;
+
 }
 
 .button:focus {
@@ -342,28 +330,30 @@ ul {
 
 .footer a {
     padding: 16px 0 8px;
-    
+
 }
+
 .footer h4 {
-    padding-left: 0;
+    padding: 48px 0 24px 0;
+    margin: 0;
 }
 
 .footer {
     border-top: 1px solid #F5CA9B;
     width: 100%;
     position: relative;
-    left: 0%;}
+    left: 0%;
+}
 
-    .footer-content {
-        width: 80%;
-        margin: 0 auto;
-     }
-    
-    .social-icons>a {
-        width: 32px;
-        height: 32px;
-        margin: 0px 16px 32px 0;
-        display: inline-block;
-        position: relative;
-    }
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.social-icons>a {
+    width: 32px;
+    height: 32px;
+    margin: 0px 16px 32px 0;
+    display: inline-block;
+    position: relative;
+}
