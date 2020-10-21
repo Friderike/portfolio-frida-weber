@@ -303,7 +303,7 @@ img {
 
 }
 
-#button {
+#button-resume {
     display: inline-block;
     max-width: 511px;
     width: 100%;
@@ -318,12 +318,12 @@ img {
 
 }
 
-.button:focus {
+#button-resume:focus {
     background-color: #F5CA9B;
     color: #08090c;
 }
 
-.button:hover {
+#button-resume:hover {
     background-color: #F5CA9B;
     color: #08090c;
 }
