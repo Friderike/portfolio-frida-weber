@@ -144,8 +144,6 @@ a:active {
     color: #bcceed;
 }
 
-
-
   header>nav {
     min-height: min-content;
      order: 1;
@@ -204,7 +202,6 @@ a:active {
 
 }
 
-
 img {
     width: 100%;
 }
@@ -213,6 +210,13 @@ img {
 .row {
     margin: 56px 0;
 
+}
+
+.row p {
+ 
+    padding: 0 0 8px;
+    width: 89%;
+    
 }
 
 
@@ -241,7 +245,7 @@ ul {
 }
 
 #homepage h3 {
-     padding: 56px 0 16px 0;
+    padding: 56px 0 16px 0;
    }
  
 
@@ -297,7 +301,6 @@ ul {
  }
  
 
-
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
@@ -325,7 +328,6 @@ ul {
     border-radius: 6px;
     margin: 48px 0 32px;
    
-
 }
 
 .button:focus {
@@ -348,13 +350,15 @@ ul {
 
 .footer {
     border-top: 1px solid #F5CA9B;
-    margin: 24px 0 4px 0;
-    padding: 16px 5% 0;
     width: 100%;
     position: relative;
     left: 0%;}
 
-
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+     }
+    
     .social-icons>a {
         width: 32px;
         height: 32px;

@@ -17,6 +17,16 @@ html {
 
 @media only screen and (max-width: 639px) {
    
+    header {
+        max-height: 140px;
+        min-height: 20rem;
+        min-width: 100%;
+        display: flex;
+        padding: 0;
+       
+     }
+ 
+
     #logo {
         width: 15rem;
          min-width: 15rem;
@@ -42,15 +52,7 @@ html {
         margin: 42px auto 0;
     }
 
-    header {
-       max-height: 140px;
-       min-height: 20rem;
-       min-width: 100%;
-       display: flex;
-       padding: 0;
-      
-    }
-
+    
 .nav {
     display: none;
     }
@@ -98,11 +100,13 @@ html {
         
     }
     
-    #homepage .row {
-        padding: 8px 0 0px;
-       margin-top: 0%;
-       
-    }
+
+/*******************************************/
+    /* layout index*/
+/*******************************************/
+
+
+
     
     #homepage h1 {
         margin: 24px 0px 0;
@@ -110,10 +114,10 @@ html {
     }
     
     #homepage h3 {
-         padding: 16px 0 8px 5%;
-         margin: 0;
-       }
-     
+        padding: 16px 0 8px 5%;
+        margin: 0;
+      }
+    
     
      #homepage img {
         width: 89%;
@@ -139,4 +143,4 @@ html {
     
        }
 
-}
+
