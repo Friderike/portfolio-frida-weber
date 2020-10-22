@@ -36,11 +36,10 @@ header {
 header.index {
     background-color: #08090c;
     border-bottom: 1px solid #F5CA9B;
-    margin: 0 0 40px;
-    display: flex;
+    margin: 0 0 56px;
     padding: 0;
     width: 100%;
-    height: 40rem;
+    height: 34.5rem;
 }
 
 #logo {
@@ -48,12 +47,7 @@ header.index {
     min-width: 15rem;
     padding-top: 16px;
     padding-bottom: 32px;
-    display: flex;
-    order: 2;
-    align-self: center;
-    display: inline-block;
-    position: relative;
-
+    margin: 0 auto;
 }
 
 /*******************************************/
@@ -209,14 +203,19 @@ img {
     width: 100%;
 }
 
+/**************************************************
+ Wrapper container for each section on page 
+************************************************* */
 .row {
     margin: 56px 0;
-}
+} 
 
 .row p {
     padding: 0 0 8px;
     width: 89%;
 }
+
+
 
 
 .columns {
@@ -282,10 +281,6 @@ img {
 /*******************************************/
 
 
-/*#gcf-projecth2h4 {
-    padding: 56px 0 8px 5%;
-    position: relative;
-}*/
 
 
 /*******************************************/
@@ -303,11 +298,10 @@ img {
 
 }
 
-#button-resume {
+.button-resume {
     display: inline-block;
     max-width: 511px;
     width: 100%;
-    color: #F5CA9B;
     border: 1px solid #F5CA9B;
     background-color: transparent;
     font-weight: 400;
@@ -317,13 +311,16 @@ img {
     margin: 48px 0;
 
 }
+.container-button .button-resume {
+    color: #F5CA9B;
+}
 
-#button-resume:focus {
+.button-resume:focus {
     background-color: #F5CA9B;
     color: #08090c;
 }
 
-#button-resume:hover {
+.button-resume:hover {
     background-color: #F5CA9B;
     color: #08090c;
 }
