@@ -76,14 +76,13 @@ h2 {
     font-family: linotype-didot, serif;
     font-size: 2.8rem;
     font-weight: 400;
-    padding: 0 0 16px 0;
+    margin: 0 0 24px 0;
 }
 
 h3 {
     font-family: linotype-didot, serif;
     font-size: 2.6rem;
     font-weight: 400;
-    /*font-style: italic;*/
     margin: 0 0 16px 0;
     width: 100%;
 }
@@ -212,23 +211,23 @@ img {
 
 .row p {
     padding: 0 0 8px;
-    width: 89%;
+    width: 100%;
 }
 
 
 
 
 .columns {
-    /*min-width: 100%;
-    max-width: 100%;*/
     flex-basis: 100%;
     display: flex;
     justify-content: space-between;
-
+   
 }
+
 
 .column-content {
     padding: 0 5% 0 0;
+    margin-bottom: 24px;
 }
 
 
@@ -237,22 +236,13 @@ img {
 /*******************************************/
 
 
-#homepage .row {
-    padding: 8px 0 0px;
-    margin-top: 0%;
-
-}
 
 #homepage h3 {
     padding: 56px 0 16px 0;
 }
 
 
-#homepage img {
-    width: 89%;
-    position: relative;
-    margin: 0 0 8px 0;
-}
+
 
 
 /*******************************************/
@@ -289,8 +279,9 @@ img {
 
 
 .container-button {
-    width: 58%;
-    max-width: 511px;
+    width: 43%;
+    min-width: 161px;
+   max-width: 544px;
     left: 50%;
     right: 50%;
     transform: translatex(-50%);
@@ -300,7 +291,7 @@ img {
 
 .button-resume {
     display: inline-block;
-    max-width: 511px;
+    max-width: 544px;
     width: 100%;
     border: 1px solid #F5CA9B;
     background-color: transparent;
@@ -325,6 +316,12 @@ img {
     color: #08090c;
 }
 
+
+
+/**********************************
+	Footer
+************************************/
+
 .footer a {
     padding: 16px 0 8px;
 
@@ -338,8 +335,7 @@ img {
 .footer {
     border-top: 1px solid #F5CA9B;
     width: 100%;
-    position: relative;
-    left: 0%;
+ 
 }
 
 .footer-content {
