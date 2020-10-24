@@ -214,9 +214,6 @@ img {
     width: 100%;
 }
 
-
-
-
 .columns {
     flex-basis: 100%;
     display: flex;
@@ -224,23 +221,45 @@ img {
    
 }
 
-
 .column-content {
     padding: 0 5% 0 0;
     margin-bottom: 24px;
 }
 
+.column-50 {
+    width: 48%;
+    max-width: 651px;
+    justify-content: space-between;
+}
 
 /*******************************************/
 /* layout index*/
 /*******************************************/
 
-
-
 #homepage h3 {
     padding: 56px 0 16px 0;
 }
 
+/*******************************************/
+    /* layout projects*/
+/*******************************************/
+.section {
+    margin-bottom: 56px;
+}
+
+.body-text-projects  {
+margin-bottom: 56px;
+}
+.body-text-projects p {
+margin-bottom: 16px;
+}
+.body-text-projects li {
+margin-bottom: 16px;
+}
+
+.img-projects {
+   margin-bottom: 32px;
+}
 
 
 

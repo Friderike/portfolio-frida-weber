@@ -116,6 +116,12 @@ body {
  .columns {
      flex-wrap: wrap;
  }
+ .column-50 {
+    width: 100%;
+ }
+
+
+
 /*******************************************/
     /* layout index*/
 /*******************************************/
@@ -144,7 +150,7 @@ body {
      margin-bottom: 32px;
  }
  
- .body-text-projects  {
+.body-text-projects  {
 margin-bottom: 32px;
 }
  .body-text-projects p {
