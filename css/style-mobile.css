@@ -104,7 +104,7 @@ body {
  
     .row {
         margin: 32px auto;
-    }
+    } /* .section only bottom margin*/
 
     .row p {
  		margin:  0;
@@ -147,7 +147,7 @@ body {
 /*******************************************/
  .section {
      margin-bottom: 32px;
- }
+ } /* only bottom margin! .row top and bottom*/
  
 .body-text-projects  {
 margin-bottom: 32px;
