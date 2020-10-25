@@ -119,6 +119,24 @@ body {
  .column-50 {
     width: 100%;
  }
+/*.screen-img-mobile {
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}*/
+/*.screen-img-50 {
+    width: 48%;
+    max-width: 651px;
+    justify-content: space-between;
+  */
+
+.container-image-grid {
+    column-count: 2;
+}
+
+.img-in-grid {
+    margin-top: 16px;
+}
 
 
 /*******************************************/
