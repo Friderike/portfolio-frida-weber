@@ -218,12 +218,14 @@ img {
     flex-basis: 100%;
     display: flex;
     justify-content: space-between;
+    justify-self: center;
    
 }
 
 .column-content {
     padding: 0 5% 0 0;
     margin-bottom: 24px;
+    max-width: 48%;
 }
 
 .column-50 {
