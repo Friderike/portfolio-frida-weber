@@ -104,6 +104,7 @@ h5 {
     font-size: 1.4rem;
     font-weight: 300;
     padding: 0;
+    display: inline-block;
 }
 
 .text-uppercase {
@@ -246,11 +247,11 @@ img {
     /* layout projects*/
 /*******************************************/
 .section {
-    margin-bottom: 56px;
+    margin-bottom: 64px;
 }
 
 .body-text-row  {
-margin-bottom: 56px;
+margin-bottom: 64px;
 }
 .body-text-row p {
 margin-bottom: 16px;
@@ -262,6 +263,29 @@ margin-bottom: 16px;
 .img-projects {
    margin-bottom: 32px;
 }
+/**** GCF***/
+
+.box-gradient {
+    width: 100%;
+    margin: 0 auto 32px;
+    
+}
+.box-primes {
+ height: 48px;
+ background-image: linear-gradient(to right, #FAF5F0, #F0E3DA, #F9BDCA, #F48BA2 );
+
+} 
+.box-neutral {
+ height: 48px;
+ background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
+
+} 
+
+/*.column-colors {
+    display: inline-block;
+    width: 48%;
+}
+*/
 
 
 
@@ -277,14 +301,6 @@ margin-bottom: 16px;
 /*******************************************/
 /* layout about*/
 /*******************************************/
-
-
-.desktop-profile {
-    width: 14%;
-    margin: 42px auto 0;
-    position: relative;
-
-}
 
 
 /*******************************************/

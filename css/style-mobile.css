@@ -139,7 +139,6 @@ body {
     margin-top: 16px;
 }
 
-
 /*******************************************/
     /* layout index*/
 /*******************************************/
@@ -181,6 +180,24 @@ body {
 .img-projects {
     margin-bottom: 16px;
 }
+
+.box-gradient {
+    width: 100%;
+    margin: 0 auto 16px;
+    
+}
+/**** GCF***/
+.box-primes {
+ height: 24px;
+ background-image: linear-gradient(to right, #FAF5F0, #F0E3DA, #F9BDCA, #F48BA2 );
+
+} 
+
+.box-neutral {
+    height: 24px;
+    background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
+   
+   } 
 
 /*******************************************/
     /* footer*/
