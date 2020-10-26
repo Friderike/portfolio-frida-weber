@@ -110,8 +110,9 @@ body {
  		margin:  0;
         padding: 0 0 8px 0;
 		width: 100%
+        }
         
-    }
+    
 
  .columns {
      flex-wrap: wrap;
@@ -167,15 +168,15 @@ body {
      margin-bottom: 32px;
  } /* only bottom margin! .row top and bottom*/
  
-.body-text-projects  {
-margin-bottom: 32px;
-}
- .body-text-projects p {
-margin-bottom: 8px;
-}
- .body-text-projects li {
-margin-bottom: 8px;
-}
+ .body-text-row  {
+    margin-bottom: 32px;
+    }
+.body-text-row p {
+    margin-bottom: 8px;
+    }
+.body-text-row li {
+    margin-bottom: 8px;
+    }
 
 .img-projects {
     margin-bottom: 16px;
