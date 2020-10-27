@@ -102,9 +102,9 @@ h5 {
 }
 
 .small-bodytext {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    padding: 0 8px 0 0;
+    padding: 0 5px 0 0;
   display: inline-block
 
 }
@@ -239,8 +239,9 @@ img {
 } /***** Gutter width 4% *******/
 
 .container-50 {
-display: flex;
+display: inline-block;
 width: 48%;
+
 }
 
 
@@ -295,7 +296,63 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 
+.color-ellipses {
+    width: 90px;
+        height: 90px;
+    background-color: #E693A5;
+      background-color: #E693A5;
+ border-radius: 50%;
+ display: inline-block;
+ }
 
+ .primes-1 {
+    background-color: #FAF7F5;
+    margin-right: -10%;
+    }
+    
+.primes-2 {
+    background-color: #F0E3DA;
+    
+    }
+    
+
+.seconds-1 {
+background-color: #E693A5;
+margin-right: -10%;
+}
+
+.seconds-2 {
+background-color: #F48BA2;
+
+}
+
+.container-color-swatches {
+    display: flex;
+    justify-content: space-between;
+}
+.container-color-swatches p {
+    padding-top: 1.5%;
+}
+  
+.neutral-1 {
+    background-color: #ffffff;
+}
+
+.neutral-2 {
+background-color: #BEB3BE;
+}
+
+.neutral-3 {
+    background-color: #694F68;
+}
+
+.box-accent {
+    height: 32px;
+    width: 58%;
+    max-width: 792px;
+  margin: 16px auto 0;
+  background-color: #9FE0E0 ;
+}
 
 /*******************************************/
 /* layout aag*/
