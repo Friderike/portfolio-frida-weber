@@ -24,6 +24,7 @@ body {
 
 .wrapper {
     width: 80%;
+    max-width: 1364px;
     margin: 0 auto;
 }
 
@@ -103,9 +104,11 @@ h5 {
 .small-bodytext {
     font-size: 1.4rem;
     font-weight: 300;
-    padding: 0;
-    display: inline-block;
+    padding: 0 8px 0 0;
+  display: inline-block
+
 }
+
 
 .text-uppercase {
     text-transform: uppercase;
@@ -235,6 +238,13 @@ img {
     justify-content: space-between;
 } /***** Gutter width 4% *******/
 
+.container-50 {
+display: flex;
+width: 48%;
+}
+
+
+
 /*******************************************/
 /* layout index*/
 /*******************************************/
@@ -281,12 +291,9 @@ margin-bottom: 16px;
 
 } 
 
-/*.column-colors {
-    display: inline-block;
-    width: 48%;
+.container-50 h4 {
+    margin-bottom: 16px;
 }
-*/
-
 
 
 
