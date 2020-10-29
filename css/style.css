@@ -207,7 +207,7 @@ img {
     margin: 56px 0;
 } 
 
-.row p {
+.section p {
     padding: 0 0 8px;
     width: 100%;
 }
@@ -219,6 +219,7 @@ img {
     /*justify-self: center;*/
    
 }
+
 
 .column-content {
     padding: 0 5% 0 0;
@@ -359,12 +360,13 @@ background-color: #BEB3BE;
 
 
 
-
-
 /*******************************************/
 /* layout about*/
 /*******************************************/
 
+#about-page .columns {
+    padding: 24px 0 8px;
+}
 
 /*******************************************/
 /* GO Cruelty Free Project*/
@@ -399,7 +401,7 @@ background-color: #BEB3BE;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    margin: 48px 0;
+    margin: 48px 0 96px;
 
 }
 .container-button .button-resume {
