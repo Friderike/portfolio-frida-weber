@@ -37,22 +37,18 @@ header {
 
 header.index {
     background-color: #08090c;
-    border-bottom: 1px solid #F5CA9B;
-    margin: 0 0 56px;
-    padding: 0;
-    width: 100%;
-    height: 34.5rem;
-   
+   /*border-bottom: 1px solid #F5CA9B;*/
+   height: 100vh;
 }
 
+@media (min-width: 1024px) {
 #logo {
-    width: 24rem;
+    width: 30rem;
     min-width: 15rem;
-    padding-top: 16px;
-    padding-bottom: 32px;
-    margin: 0 auto;
+    padding-top: 20vh;
+   margin: 0 auto;
 }
-
+}
 /*******************************************/
 /* layout styling*/
 /*******************************************/
@@ -153,11 +149,7 @@ a:active {
 
 header>nav {
     min-height: min-content;
-    order: 1;
-    display: flex;
-    align-self: flex-start;
-    margin-left: 5%;
-    padding-top: 8px;
+    padding-top: 5vh;
     list-style: none;
 }
 

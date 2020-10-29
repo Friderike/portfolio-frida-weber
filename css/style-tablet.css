@@ -5,9 +5,15 @@
 
 }
 
-@media  (max-width: 1023px) {
+@media  (max-width: 1023px ) {
 
-
+#logo {
+    width: 21rem;
+    min-width: 21rem;
+    padding-top: 20vh;
+    padding-bottom: 24px;
+ margin: 0 auto;
+}
 
 
 

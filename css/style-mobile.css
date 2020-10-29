@@ -29,21 +29,20 @@ body {
     }
    
     header.index {
-        height: 20rem;
+        height: 100vh;
          min-width: 100%;
          padding: 0;
     }
  
-
+@media (max-width: 639px) {
     #logo {
         width: 15rem;
          min-width: 15rem;
-         padding-top: 8px;
-         padding-bottom: 0;
+         padding-top: 20vh;
          padding-bottom: 24px;
       margin: 0 auto;
      }
- 
+ }
    
     
 	.wrapper {
