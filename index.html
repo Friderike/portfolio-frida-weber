@@ -724,13 +724,13 @@
   <main>
 
       <!--Hero Section-->
-      <div class="row">
+      <div class="section">
 
          <div>
             <p>
                Hello,
             </p>
-            <p>
+            <p >
                I am Frida. UI Designer and Artist based in the US and Germany.
                Coming from an artistic background as a
                Tattoo Artist who turned UI Designer / Illustrator,
@@ -748,12 +748,12 @@
             <h1 class="text-centered row">
                Design Projects
             </h1>
-            <div class="section">
-               <!--row for 2 columns gcf&aag-->
-               <div>
-                  <!--first column (left-gcf)-->
-                  
-                <div class="columns">
+              <!--<div class="section">
+             row for 2 columns gcf&aag-->
+               
+             <div> <!--container for projects rows & columns-->
+                      
+                <div class="columns section">
                   <div class="column-50">
                         
                         <h3>
@@ -761,7 +761,7 @@
                         </h3>
                         <picture >
                            <source srcset="images/gcf/mobile/m-gcf-project-cover@277.png" media="(max-width:639px)" />
-                           <img src="./images/gcf/desktop/d-gcf-project-cover@792.png" alt="Cover Go Cruelty Free" />
+                           <img class="images-home" src="./images/gcf/desktop/d-gcf-project-cover@792.png" alt="Cover Go Cruelty Free" />
                         </picture>
                        
                         <div >
@@ -782,10 +782,10 @@
                         <!--wrapper for aag image+heading-->
                           <!-- <h4>Alaska Artist Guild - Website Redesign</h4> -->
                          <h3> Website Redesign</h3>
-                          <picture>
+                          <picture >
                            <source srcset="images/aag/mobile/m-aag-home-cover@277.png"
                               media="(max-width:639px)" />
-                           <img src="images/aag/desktop/d-aag-home-cover@792.png"
+                           <img class="images-home" src="images/aag/desktop/d-aag-home-cover@792.png"
                               alt="Alaska Artist Guild Website Redesign Cover Image" />
                         </picture>
                    
@@ -797,18 +797,17 @@
                            </p>
                            <p>Tools used: Adobe XD, Sketch, Adobe Photoshop</p>
                         </div>
-      </div>
-                     
-                     <!--End second column (right-aag)-->
-      
-                  </div>
-                  <!--end row for 2 columns-->
-      
+                  </div> <!--End second column (right-aag)-->
+          
+                  </div> <!--End first row projects row class columns-->
+                 
+              <!-- </div> end row for 2 columns-->
 
 
-            <div class="row">
+            <div class="columns section">
                <!--2nd row for 2 columns-->
-               <div>
+               
+               <div class="column-50">
                   <!--first column (left treats)-->
 
                   <h3>trEats</h3>
@@ -816,11 +815,11 @@
                   <picture>
                      <source srcset="images/treats/compressed/mobile/m-tr-project-cover@375.png"
                         media="(max-width:639px)" />
-                     <img src="images/treats/compressed/desktop/d-tr-project-splash@1920.png"
+                     <img class="images-home" src="images/treats/compressed/desktop/d-tr-project-splash@1920.png"
                         alt="Go Cruelty Free Cover Image" />
                   </picture>
 
-                  <div class="row">
+                  <div>
                      <p>
                         A responsive web app for people who are looking for restaurants
                         catering to special dietary needs. <a href="treats.html">...more</a>
@@ -830,16 +829,20 @@
                   </div>
                </div>
                <!--End first column (left treats)-->
-               <div>
+               
+               <div class="column-50">
                   <!--second column (right badges)-->
 
+
+                  
                </div>
                <!--End second column (badges)-->
-            </div>
-            <!--end 2nd row for 2 columns-->
-         </div>
+           
+            </div> <!-- end second row projects-->
+            
+         </div><!-- endcontainer for all projects rows & columns-->
          
-      </div><!--"my work section-->
+     
 
    </main>
 </div> <!--end wrapper-->

@@ -201,7 +201,7 @@ img {
 }
 
 /**************************************************
- Wrapper container for each section on page 
+ Container for each section on page 
 ************************************************* */
 .row {
     margin: 56px 0;
@@ -248,7 +248,9 @@ width: 48%;
 /* layout index*/
 /*******************************************/
 
-
+.images-home {
+    margin-bottom: 24px;
+}
 
 /*******************************************/
     /* layout projects*/
@@ -287,10 +289,6 @@ margin-bottom: 16px;
  background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
 
 } 
-
-/*.container-50 h4 {
-    margin-bottom: 8px;
-}.UNNECESSARY?*/ 
 
 .color-ellipses {
     width: 90px;
@@ -388,7 +386,7 @@ background-color: #BEB3BE;
     right: 50%;
     transform: translatex(-50%);
     position: relative;
-
+    margin: 48px 0 96px;
 }
 
 .button-resume {
@@ -401,7 +399,7 @@ background-color: #BEB3BE;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    margin: 48px 0 96px;
+   
 
 }
 .container-button .button-resume {
@@ -430,7 +428,7 @@ background-color: #BEB3BE;
 }
 
 .footer h4 {
-    padding: 48px 0 24px 0;
+    padding: 32px 0 24px 0;
     margin: 0;
 }
 
