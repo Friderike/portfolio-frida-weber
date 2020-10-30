@@ -263,7 +263,7 @@ width: 48%;
 margin-bottom: 64px;
 }
 .body-text-row p {
-margin-bottom: 16px;
+padding: 0;
 }
 .body-text-row li {
 margin-bottom: 16px;
@@ -309,7 +309,6 @@ margin-bottom: 16px;
     
     }
     
-
 .seconds-1 {
 background-color: #E693A5;
 margin-right: -10%;
