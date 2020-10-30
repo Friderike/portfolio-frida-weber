@@ -260,7 +260,7 @@ width: 48%;
 }
 
 .body-text-row  {
-margin-bottom: 64px;
+margin-bottom: 48px;
 }
 .body-text-row p {
 padding: 0;
@@ -434,7 +434,7 @@ background-color: #BEB3BE;
 .footer {
     border-top: 1px solid #F5CA9B;
     width: 100%;
- 
+   margin-top: 96px;
 }
 
 .footer-content {
