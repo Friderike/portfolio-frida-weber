@@ -186,8 +186,7 @@ body {
    } 
 
    .playfair {
-       width: 48% ; 
-       align-self: flex-start; */
+       width: 48% ;  
    }
 
 .playfair h4  {
@@ -196,11 +195,12 @@ body {
     font-style: normal;
     color: #f4e5d5;
     margin-bottom: 8px;
- 
+ padding-top: 2%;
 }
 .playfair h5  {
     font-family: playfair-display, serif;
     font-weight: 400;
+    font-size: 2rem;
     font-style: normal;
     color: #f4e5d5;
     margin-bottom: 8px;
@@ -216,8 +216,6 @@ body {
 .classico {
     padding-left: 4%;
     width: 48%;
-    align-self: flex-start;
-
 }
 .classico h4 {
     font-family: classico-urw, sans-serif;
