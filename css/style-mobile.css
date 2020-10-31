@@ -171,7 +171,8 @@ body {
     margin: 0 auto 16px;
     
 }
-/**** GCF***/
+/**** GCF***********************/
+/**********************************/
 .box-primes {
  height: 24px;
  background-image: linear-gradient(to right, #FAF5F0, #F0E3DA, #F9BDCA, #F48BA2 );
@@ -181,8 +182,76 @@ body {
 .box-neutral {
     height: 24px;
     background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
-   
+
    } 
+
+   .playfair {
+       width: 48% ; 
+       align-self: flex-start; */
+   }
+
+.playfair h4  {
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+ 
+}
+.playfair h5  {
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+}
+.playfair p {
+    font-family: playfair-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 16px;
+}
+
+.classico {
+    padding-left: 4%;
+    width: 48%;
+    align-self: flex-start;
+
+}
+.classico h4 {
+    font-family: classico-urw, sans-serif;
+    font-weight:  700;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+}
+   
+
+.classico h5  {
+    font-family: classico-urw, sans-serif;
+    font-weight:  700;
+    font-size: 2rem;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+   
+}
+
+.classico h6 {
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+    color: #f4e5d5;
+    margin-bottom: 16px;
+  
+}
+.classico p {
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+   
+}
+
 
 /*******************************************/
     /* footer & Button*/
@@ -203,11 +272,10 @@ body {
 
     .footer p {
         padding: 0 0 8px;
-      
-        margin: 0 auto;
+      margin: 0 auto;
        }
     
-       .footer h4 {
+    .footer h4 {
     padding: 16px 0 16px 0;
        }
     }
