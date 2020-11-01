@@ -242,6 +242,10 @@ width: 48%;
     justify-content: center;
 }
 
+.end {
+   display: flex;
+  justify-items: flex-end;
+}
 
 /*******************************************/
 /* layout index*/
@@ -271,7 +275,7 @@ margin-bottom: 16px;
 .img-projects {
    margin-bottom: 32px;
 }
-/**** GCF***/
+/**** GCF**********************************************/
 
 .box-gradient {
     width: 100%;
@@ -347,7 +351,13 @@ background-color: #BEB3BE;
 } 
 .column-50 h4 {
     margin-bottom: 8px;
-   
+}
+#thank-you-gcf h1 {
+    margin-bottom: 0;
+}
+#thank-you-gcf .column-content {
+ 
+   max-width: 685px;
 }
 
 /*******************************************/
@@ -367,66 +377,13 @@ background-color: #BEB3BE;
 /*******************************************/
 /* GO Cruelty Free Project*/
 /*******************************************/
-/*
-.playfair h4  {
-    font-family: playfair-display, serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-.playfair h5  {
-    font-family: playfair-display, serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-.playfair p {
-    font-family: playfair-display, serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 16px;
+
+.brand-logo {
+    width: 43%;
+    max-width: 509px;
+    margin: 0 auto;
 }
 
-.classico {
-    padding-left: 8px;
-    flex-wrap: nowrap;
-}
-.classico h4 {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-   
-
-.classico h5  {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-size: 2rem;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-    text-align-last: justify;
-}
-
-.classico h6 {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-    font-size: 1.8rem;
-    
-    color: #f4e5d5;
-    margin-bottom: 16px;
-  
-}
-.classico p {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-    text-align-last: justify;
-}
-*/
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
@@ -503,7 +460,7 @@ background-color: #BEB3BE;
     margin: 0;
    }
 
-.social-icons>a {
+.icons>a {
     width: 32px;
     height: 32px;
     margin: 0px 16px 32px 0;

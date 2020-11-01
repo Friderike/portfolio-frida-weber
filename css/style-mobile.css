@@ -119,6 +119,7 @@ body {
     width: 100%;
  }
 
+
 .container-image-grid {
     column-count: 2;
 }
@@ -247,9 +248,12 @@ body {
 .classico p {
     font-family: classico-urw, sans-serif;
     font-weight: 400;
-   
 }
-
+.brand-logo {
+    width: 43%;
+    max-width: 509px;
+    padding-top: 24px;
+}
 
 /*******************************************/
     /* footer & Button*/

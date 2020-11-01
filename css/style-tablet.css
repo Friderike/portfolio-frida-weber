@@ -19,9 +19,70 @@
 
 
 
+/*******************************************
+                GCF
+********************************************/
 
+/*
+.playfair h4  {
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+}
+.playfair h5  {
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+}
+.playfair p {
+    font-family: playfair-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 16px;
+}
 
+.classico {
+    padding-left: 8px;
+    flex-wrap: nowrap;
+}
+.classico h4 {
+    font-family: classico-urw, sans-serif;
+    font-weight:  700;
+    font-style: normal;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+}
+   
 
+.classico h5  {
+    font-family: classico-urw, sans-serif;
+    font-weight:  700;
+    font-size: 2rem;
+    color: #f4e5d5;
+    margin-bottom: 8px;
+    text-align-last: justify;
+}
+
+.classico h6 {
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    
+    color: #f4e5d5;
+    margin-bottom: 16px;
+  
+}
+.classico p {
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    text-align-last: justify;
+}
+*/
 
 
 
