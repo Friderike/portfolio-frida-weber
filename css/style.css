@@ -219,7 +219,6 @@ img {
    
 }
 
-
 .column-content {
     padding: 0 5% 0 0;
     margin-bottom: 24px;
@@ -352,13 +351,6 @@ background-color: #BEB3BE;
 .column-50 h4 {
     margin-bottom: 8px;
 }
-#thank-you-gcf h1 {
-    margin-bottom: 0;
-}
-#thank-you-gcf .column-content {
- 
-   max-width: 685px;
-}
 
 /*******************************************/
 /* layout aag*/
@@ -382,6 +374,16 @@ background-color: #BEB3BE;
     width: 43%;
     max-width: 509px;
     margin: 0 auto;
+    padding-top: 48px
+}
+
+#thank-you-gcf h1 {
+    margin-bottom: 0;
+    margin-top: 64px;
+    font-size: 4rem;
+}
+#thank-you-gcf .column-content {
+  max-width: 685px;
 }
 
 /*******************************************/

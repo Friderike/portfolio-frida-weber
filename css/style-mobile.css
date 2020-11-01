@@ -119,7 +119,6 @@ body {
     width: 100%;
  }
 
-
 .container-image-grid {
     column-count: 2;
 }
@@ -254,6 +253,11 @@ body {
     max-width: 509px;
     padding-top: 24px;
 }
+
+#thank-you-gcf h1 {
+    margin-bottom: 0;
+    margin-top:32px;
+   font-size: 2.8rem;
 
 /*******************************************/
     /* footer & Button*/
