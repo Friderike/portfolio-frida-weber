@@ -9,13 +9,13 @@ html {
 }
 
 
-@media (max-width: 639px) {
+@media (max-width: 595px) {
     .hidden-on-mobile {
         display: none;
     }
 }
 
-@media  (max-width: 639px) {
+@media  (max-width: 595px) {
 
 body {
      font-size: 1.6rem;
@@ -24,7 +24,7 @@ body {
 }
 
     header {
-        height: 5.6rem;
+        height: 8rem;
        /*border-bottom: 1px solid #F5CA9B;*/
         margin-bottom: 32px;
     }
@@ -34,8 +34,13 @@ body {
          min-width: 100%;
          padding: 0;
     }
- 
-@media (max-width: 639px) {
+ .hamburger {
+   
+    margin-top: 5%;
+    margin-left: 5%;
+ }
+
+@media (max-width: 595px) {
     #logo {
         width: 15rem;
          min-width: 15rem;
@@ -45,25 +50,18 @@ body {
      }
  }
    
-    
 	.wrapper {
 		width: 89%;
 		margin: 0 auto;
 	
 	}
    
-    /*.body-text-mobile {
-        font-size: 1.6rem;
-        list-style: none;
-    }*/
-
     .mobile-profile {
         width: 28%;
         height: 28%;
         margin: 42px auto 0;
     }
 
-    
 .nav {
     display: none;
     }
@@ -117,6 +115,7 @@ body {
  }
  .column-50 {
     width: 100%;
+   
  }
 
 .container-image-grid {
@@ -182,6 +181,11 @@ body {
 .box-neutral {
     height: 24px;
     background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
+    margin-top: 32px;
+   } 
+.box-accent {
+    height: 24px;
+    background-color: #9FE0E0 ;
 
    } 
 
@@ -258,6 +262,45 @@ body {
     margin-bottom: 0;
     margin-top:32px;
    font-size: 2.8rem;
+}
+
+#colors .column-50 {
+width: 100%;
+
+}
+
+.primes-1, .primes-2, .seconds-1, .seconds-2 {
+    width: 65px;
+    height: 65px;
+} 
+
+.primes-1, .seconds-1 {
+    
+    margin-right: 0;
+    }
+
+    .neutral-1 {
+        background-color: #ffffff;
+        width: 75px;
+        height: 75px;
+    }
+    
+    .neutral-2 {
+    background-color: #BEB3BE;
+    width: 75px;
+    height: 75px;
+    }
+    
+    .neutral-3 {
+        background-color: #694F68;
+        width: 75px;
+        height: 75px;
+    }
+
+#colors .small-bodytext {
+    font-size: 1rem;
+}
+
 
 /*******************************************/
     /* footer & Button*/

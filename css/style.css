@@ -107,7 +107,6 @@ h5 {
 
 }
 
-
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -189,7 +188,7 @@ header>nav {
 }
 
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 595px) {
     .hidden-on-desktop {
         display: none;
     }
@@ -209,9 +208,8 @@ img {
 
 .section p {
     padding: 0 0 8px;
-    width: 100%;
+    /*width: 100%;*/
 }
-
 .columns {
     flex-basis: 100%;
     display: flex;
@@ -231,19 +229,9 @@ img {
     justify-content: space-between;
 } /***** Gutter width 4% *******/
 
-/*.container-50 {
-display: inline-block;
-width: 48%;
-
-}*/
 .center-element {
     display: flex;
     justify-content: center;
-}
-
-.end {
-   display: flex;
-  justify-items: flex-end;
 }
 
 /*******************************************/
@@ -274,6 +262,8 @@ margin-bottom: 16px;
 .img-projects {
    margin-bottom: 32px;
 }
+
+
 /**** GCF**********************************************/
 
 .box-gradient {
@@ -325,9 +315,11 @@ background-color: #F48BA2;
     display: flex;
     justify-content: space-between;
 }
-.container-color-swatches p {
+.container-color-swatches .small-bodytext {
     padding-top: 1.5%;
+    justify-content: space-between;
 }
+
   
 .neutral-1 {
     background-color: #ffffff;
@@ -373,7 +365,7 @@ background-color: #BEB3BE;
 .brand-logo {
     width: 43%;
     max-width: 509px;
-    margin: 0 auto;
+    margin: 0 auto 64px;
     padding-top: 48px
 }
 
@@ -385,6 +377,12 @@ background-color: #BEB3BE;
 #thank-you-gcf .column-content {
   max-width: 685px;
 }
+
+.end {
+    display: flex;
+   justify-items: flex-end;
+ }
+
 
 /*******************************************/
 /* Button & Footer*/
