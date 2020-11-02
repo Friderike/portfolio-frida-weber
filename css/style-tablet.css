@@ -16,7 +16,11 @@
  margin: 0 auto;
 }
 
+.wrapper {
+    width: 89%;
+    margin: 0 auto;
 
+}
 
 
 
@@ -86,15 +90,11 @@
 */
 
 
+.footer-content {
+    width: 89%;
+    margin: 0 auto;
+ }
 
+}  /************ END MEDIA QUERY ********/
 
-/*#vertical-swatches .column-50 {
-width: 100%;
-}
-*/
-
-
-
-}
-
-} /************ END MEDIA QUERY ********/
+}  /************ END MEDIA QUERY ********/

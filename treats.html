@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="icon" href="images/favicomatic/favicon.ico" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-tablet.css" />
         <link rel="stylesheet" href="css/style-mobile.css">
       </head>
 
@@ -56,13 +57,11 @@
 
           <main class="wrapper">
 
-            <section > <!--project section-->
-
-                <div class="bg-projetcs"> </div>
-
-                    <!--bg for projects-->
+            <section class="section"> <!--project section-->
 
                 <h2>The Project</h2>
+                <div class="columns"> <!--Conatiner two columns-->
+                    <div class="section column-50">
                 <p>
                     Different people have different dietary needs. Eating out became common in times of demanding work
                     hours.
@@ -83,15 +82,18 @@
                     Finding a suitable restaurant has never been easier!
                 </p>
 
-                <div class="bg-gradient">
-                    <!--background goes here-->
-
-                    <picture>
+            </div> <!--End first column text-->
+                
+                    <picture class="column-50">
                         <source srcset="images/treats/compressed/mobile/m-tr-project-all-devices@335.png"
                             media="(max-width:595px)" />
                         <img src="images/treats/compressed/desktop/d-tr-project-all-devices@933.png"
                             alt="Cover Image Treats">
                     </picture>
+                    
+                </div>
+                <!--End container two columns-->
+
                     <picture>
                         <source srcset="images/treats/compressed/mobile/m-tr-project-5phones@335.png"
                             media="(max-width:595px)" />
@@ -99,9 +101,7 @@
                             alt="5 Iphones Mockup">
                     </picture>
 
-                </div>
-                <!--End Background 5phones-->
-
+              
             </section>
             <!--End the project section-->
 
