@@ -9,13 +9,13 @@ html {
 }
 
 
-@media (max-width: 595px) {
+@media (max-width: 639px) {
     .hidden-on-mobile {
         display: none;
     }
 }
 
-@media  (max-width: 595px) {
+@media  (max-width: 639px) {
 
 body {
      font-size: 1.6rem;
@@ -39,7 +39,7 @@ body {
 
  }
 
-@media (max-width: 595px) {
+@media (max-width: 639px) {
     #logo {
         width: 15rem;
          min-width: 15rem;
