@@ -197,7 +197,7 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #f4e5d5;
-    margin-bottom: 8px;
+    
  padding-top: 2%;
 }
 .playfair h5  {
@@ -262,11 +262,7 @@ body {
     margin-top:32px;
    font-size: 2.8rem;
 }
-
-#colors .column-50 {
-width: 100%;
-
-}
+ 
 
 .primes-1, .primes-2, .seconds-1, .seconds-2 {
     width: 65px;
@@ -274,7 +270,6 @@ width: 100%;
 } 
 
 .primes-1, .seconds-1 {
-    
     margin-right: 0;
     }
 
@@ -296,10 +291,21 @@ width: 100%;
         height: 75px;
     }
 
+/*.colors {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}*/
+
 .colors .small-bodytext {
     font-size: 1rem;
-}
+  padding-top: 1.5%;
+  margin: 0 auto 16px;
+  justify-content: space-between;
 
+}
 
 /*******************************************/
     /* footer & Button*/
