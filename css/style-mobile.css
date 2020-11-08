@@ -264,13 +264,13 @@ body {
 }
  
 
-.primes-1, .primes-2, .seconds-1, .seconds-2 {
+/*.primes-1, .primes-2, .seconds-1, .seconds-2 {
     width: 65px;
     height: 65px;
-} 
+} */
 
 .primes-1, .seconds-1 {
-    margin-right: 0;
+    margin-right: 16px;
     }
 
     .neutral-1 {
@@ -301,11 +301,18 @@ body {
 
 .colors .small-bodytext {
     font-size: 1rem;
-  padding-top: 1.5%;
-  margin: 0 auto 16px;
-  justify-content: space-between;
+  padding: 1.5% 0 0 0;
+  margin: 0 24px 16px 16px;
 
 }
+
+.mobile-100 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /*******************************************/
     /* footer & Button*/
