@@ -22,13 +22,21 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .tablet {
-        display: flex;
-       min-width: 100%;  
-      flex-wrap: wrap; 
+
+   .column-60 {
+        width: 100%;
+    padding: 0;
+     
     }
+    .column-50.column-30 {
+        width: 70%;
+        margin-left: 30%;
+}
 }
 
+.columns {
+    flex-wrap: wrap;
+}
 
 /*******************************************
                 GCF

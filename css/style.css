@@ -235,6 +235,7 @@ img {
 .column-60 {
     width: 60%;
     padding-right: 24px;
+   
 }
 
 .center-element {
@@ -360,7 +361,7 @@ background-color: #BEB3BE;
 .brand-logo {
     width: 43%;
     max-width: 509px;
-    margin: 0 auto 80px;
+    margin: 0px auto 80px;
     padding-top: 48px
 }
 
