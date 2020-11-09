@@ -23,10 +23,9 @@
 
 @media only screen and (max-width: 1024px) {
     .tablet {
+        display: flex;
        min-width: 100%;  
-      
-        flex-wrap: wrap; 
-        justify-content: center;
+      flex-wrap: wrap; 
     }
 }
 
@@ -95,17 +94,25 @@
     text-align-last: justify;
 }
 */
-#thank-you-gcf h1 {
-    margin-bottom: 0;
-    margin-top:48px;
-   font-size: 3.2rem;
+
+.brand-logo {
+    width: 43%;
+    max-width: 509px;
+    margin: 0 auto 0px;
+    padding-top: 0px
 }
 
+#thank-you-gcf h1 {
+     width: 100%;
+    margin-bottom: 0;
+    margin-top:48px;
+   font-size: 3.0rem;
+}
 
-
-
-
-
+.end {
+   display: flex;
+   justify-content: flex-end;
+ }
 .footer-content {
     width: 89%;
     margin: 0 auto;

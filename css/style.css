@@ -229,10 +229,22 @@ img {
     justify-content: space-between;
 } /***** Gutter width 4% *******/
 
+.column-30 {
+    width: 30%;
+}
+.column-60 {
+    width: 60%;
+    padding-right: 24px;
+}
+
 .center-element {
     display: flex;
     justify-content: center;
 }
+.end {
+    display: flex;
+   justify-items: flex-end;
+ }
 
 /*******************************************/
 /* layout index*/
@@ -264,7 +276,9 @@ margin-bottom: 16px;
 }
 
 
-/**** GCF**********************************************/
+/*******************************************/
+/* GO Cruelty Free Project*/
+/*******************************************/
 
 .box-gradient {
     width: 100%;
@@ -320,7 +334,6 @@ background-color: #F48BA2;
     justify-content: space-between;
 }
 
-  
 .neutral-1 {
     background-color: #ffffff;
 }
@@ -347,7 +360,7 @@ background-color: #BEB3BE;
 .brand-logo {
     width: 43%;
     max-width: 509px;
-    margin: 0 auto 64px;
+    margin: 0 auto 80px;
     padding-top: 48px
 }
 
@@ -374,15 +387,6 @@ background-color: #BEB3BE;
 #about-page .columns {
     padding: 24px 0 8px;
 }
-
-/*******************************************/
-/* GO Cruelty Free Project*/
-/*******************************************/
-
-.end {
-    display: flex;
-   justify-items: flex-end;
- }
 
  /*******************************************/
  /* Treats Project*/

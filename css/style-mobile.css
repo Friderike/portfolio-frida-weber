@@ -114,7 +114,6 @@ body {
  }
  .column-50 {
     width: 100%;
-   
  }
 
 .container-image-grid {
@@ -254,21 +253,16 @@ body {
 .brand-logo {
     width: 43%;
     max-width: 509px;
-    padding-top: 24px;
+    margin: 0 auto 0px;
+    padding-top: 0px
 }
 
 #thank-you-gcf h1 {
     margin-bottom: 0;
-    margin-top:32px;
+    margin-top:0px;
    font-size: 2.8rem;
 }
  
-
-/*.primes-1, .primes-2, .seconds-1, .seconds-2 {
-    width: 65px;
-    height: 65px;
-} */
-
 /*.primes-1, .seconds-1 {
    margin-right: 48px;
     } */
@@ -293,7 +287,6 @@ body {
         width: 75px;
         height: 75px;
     }
-
 
 .colors .small-bodytext{
     font-size: 1rem;
