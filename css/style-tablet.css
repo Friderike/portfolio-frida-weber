@@ -34,12 +34,14 @@
 }
 
 }
-.personas .column-50 {
-    width: 100%;
-}
+
 .columns {
     flex-wrap: wrap;
 }
+
+.section {
+    margin-bottom: 48px;
+} 
 
 .end {
     width: 100%;
@@ -132,6 +134,12 @@
 /*******************************************
                trEats
 ********************************************/
+
+.personas .column-50 {
+    width: 100%;
+}
+
+
 
 
 

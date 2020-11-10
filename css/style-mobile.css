@@ -134,6 +134,9 @@ body {
 .img-in-grid {
     margin-top: 16px;
 }
+.img-in-grid.last {
+    margin-top: 22px;
+}
 
 /*******************************************/
     /* layout index*/
@@ -321,7 +324,6 @@ body {
 .personas .column-30 {
     width: 100%;
 }
-
 
 
 
