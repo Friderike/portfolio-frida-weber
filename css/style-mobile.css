@@ -120,6 +120,13 @@ body {
     padding: 0;
     width: 100%;
 }
+.end {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
 .container-image-grid {
     column-count: 2;
 }
@@ -304,6 +311,20 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/*******************************************/
+    /* layout trEats*/
+/*******************************************/
+
+
+.personas .column-30 {
+    width: 100%;
+}
+
+
+
+
 
 /*******************************************/
     /* footer & Button*/
