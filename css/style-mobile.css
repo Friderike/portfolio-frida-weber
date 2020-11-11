@@ -314,7 +314,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.mobile-100 h4 {
+    display: block;
+    width: 100%;
+}
 
 /*******************************************/
     /* layout trEats*/

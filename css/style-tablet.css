@@ -48,7 +48,16 @@
     display: flex;
     justify-content: flex-end;
   }
-
+ .tablet-100 {
+     width: 100%;
+     flex-wrap: wrap;
+ }
+.column-50 .tablet-100 {
+    min-width: 100%;
+}
+ .tablet-100 h4 {
+     margin-bottom: 32px;
+ }
 
 /*******************************************
                 GCF

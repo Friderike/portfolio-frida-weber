@@ -247,6 +247,12 @@ img {
    justify-items: flex-end;
  }
 
+ .container-3images-grid {
+     column-count: 3;
+ }
+ .img-in-grid {
+     margin-top: 24px;
+ }
 /*******************************************/
 /* layout index*/
 /*******************************************/
