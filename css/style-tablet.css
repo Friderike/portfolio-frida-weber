@@ -155,7 +155,7 @@
 
 .color-treats .small-bodytext {
     font-size: 1.6rem;
-  margin: 24px 150px 48px 0; 
+    color: #08090c;
     padding: 0;
 }
 .box-color-swatch {
@@ -167,10 +167,24 @@
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
-    height: 45vh;
+    height: 50vh;
 }
-.color-treats .column-50 {
+/*.color-treats .column-50 {
     width: 100%;
+}*/
+.color-treats .mobile-100 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-treats .mobile-100 h4 {
+    display: block;
+    width: 100%;
+}
+
+.color-treats .mobile-100{
+    display: flex;
+    justify-content: space-evenly;
 }
 .color-treats h2 {
     padding-top: 16px;

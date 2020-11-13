@@ -349,7 +349,7 @@ body {
 .color-treats .neutral {
     margin-left: 16px;
 }
- .color-treats .container-color-swatches{
+ .color-treats .mobile-100{
      display: flex;
      justify-content: space-evenly;
  }
@@ -364,7 +364,7 @@ body {
 
 .color-treats .small-bodytext {
     font-size: 1.6rem;
-  margin: 16px 50px 32px 0; 
+  /*margin: 16px 50px 32px 0; */
     padding: 0;
 }
 

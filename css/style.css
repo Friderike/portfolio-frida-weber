@@ -403,9 +403,7 @@ background-color: #BEB3BE;
     width: 100%;
     height: 40vh;
     background-image: linear-gradient(to right, #BAAA9A, #E5D6C8);
-
 }
-
 .box-color-swatch {
     width: 160px;
     height: 160px;
@@ -428,7 +426,6 @@ background-color: #BEB3BE;
     background-color: #F7F5F2 ;
     border: solid 1px #1C0E0E;
     
-
 }
 .color-treats-background {
     background-color: #FFFFFF;
@@ -439,21 +436,27 @@ background-color: #BEB3BE;
 .color-treats .columns {
     justify-content: space-evenly;
 }
-/*.color-treats .container-color-swatches {
-    justify-content: space-between;
-}*/
 
-.color-treats .neutral {
-    margin-left: 25px;
-}
+
 .color-treats h2 {
     margin-left: 16px;
     padding-top: 24px;
 }
+
 .color-treats .small-bodytext {
     font-size: 1.8rem;
-  /*margin: 24px 140px 64px 0; */
     padding: 0; 
+}
+.color-treats .mobile-100 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.desktop-colors {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 /*******************************************/
 /* Button & Footer*/
@@ -497,7 +500,6 @@ background-color: #BEB3BE;
     background-color: #F5CA9B;
     color: #08090c;
 }
-
 
 
 /**********************************
