@@ -334,6 +334,21 @@ body {
     border-radius: 10px;
    
 }
+.color-treats-background {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 40vh;
+}
+.color-treats h2 {
+    padding-top: 16px;
+    
+}
+.color-treats h4 {
+    margin-left: 16px;
+}
+.color-treats .neutral {
+    margin-left: 16px;
+}
  .color-treats .container-color-swatches{
      display: flex;
      justify-content: space-evenly;
@@ -346,14 +361,11 @@ body {
     background-color: #1C0E0E ;
     margin-left: 0;
 }
-.color-treats .neutral {
-    margin-left: 0px;
-}
+
 .color-treats .small-bodytext {
     font-size: 1.6rem;
   margin: 16px 50px 32px 0; 
     padding: 0;
-    
 }
 
 /*******************************************/

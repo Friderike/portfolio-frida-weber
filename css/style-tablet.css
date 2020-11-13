@@ -159,11 +159,43 @@
     padding: 0;
 }
 .box-color-swatch {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 10px;
     display: inline-block;
 }
+.color-treats-background {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 45vh;
+}
+.color-treats .column-50 {
+    width: 100%;
+}
+.color-treats h2 {
+    padding-top: 16px;
+}
+.color-treats h4 {
+    margin-left: 16px;
+    width: 100%;
+    
+}
+.color-treats .neutral {
+    margin-left: 16px;
+}
+ .color-treats .container-color-swatches{
+     display: flex;
+     justify-content: space-evenly;
+ }
+.treats-prime-2 {
+    background-color: #FE8C3B ;
+    margin-right: 0px;
+}
+.treats-neutral-dark {
+    background-color: #1C0E0E ;
+    margin-left: 0;
+}
+
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
