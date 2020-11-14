@@ -51,6 +51,7 @@
  .tablet-100 {
      width: 100%;
      flex-wrap: wrap;
+     max-width: 100%;
  }
 .column-50 .tablet-100 {
     min-width: 100%;
@@ -64,70 +65,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
 /*******************************************
                 GCF
 ********************************************/
-
-/*
-.playfair h4  {
-    font-family: playfair-display, serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-.playfair h5  {
-    font-family: playfair-display, serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-.playfair p {
-    font-family: playfair-display, serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 16px;
-}
-
-.classico {
-    padding-left: 8px;
-    flex-wrap: nowrap;
-}
-.classico h4 {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-   
-
-.classico h5  {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-size: 2rem;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-    text-align-last: justify;
-}
-
-.classico h6 {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-    font-size: 1.8rem;
-    
-    color: #f4e5d5;
-    margin-bottom: 16px;
-  
-}
-.classico p {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-    text-align-last: justify;
-}
-*/
 
 .brand-logo {
     width: 43%;
@@ -153,10 +95,6 @@
     width: 100%;
 }
 
-.color-treats .small-bodytext {
-    font-size: 1.6rem;
-    color: #08090c;
-    padding: 0;
 }
 .box-color-swatch {
     width: 160px;
@@ -167,40 +105,15 @@
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
-    height: 50vh;
-}
-/*.color-treats .column-50 {
-    width: 100%;
-}*/
-.color-treats .mobile-100 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.color-treats .mobile-100 h4 {
-    display: block;
-    width: 100%;
+   padding: 24px 0 24px 16px;
 }
 
-.color-treats .mobile-100{
-    display: flex;
-    justify-content: space-evenly;
-}
-.color-treats h2 {
-    padding-top: 16px;
-}
+
 .color-treats h4 {
     margin-left: 16px;
     width: 100%;
-    
 }
-.color-treats .neutral {
-    margin-left: 16px;
-}
- .color-treats .container-color-swatches{
-     display: flex;
-     justify-content: space-evenly;
- }
+
 .treats-prime-2 {
     background-color: #FE8C3B ;
     margin-right: 0px;
@@ -210,6 +123,17 @@
     margin-left: 0;
 }
 
+.color-treats .small-bodytext {
+    font-size: 1.6rem;
+    color: #08090c;
+ display: block;
+    padding: 0;
+}
+.color-treats .column-50 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/

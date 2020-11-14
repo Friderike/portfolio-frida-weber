@@ -416,11 +416,10 @@ background-color: #BEB3BE;
 }
 .treats-prime-2 {
     background-color: #FE8C3B ;
-    margin-right: 25px;
 }
 .treats-neutral-dark {
     background-color: #1C0E0E ;
-    margin-left: 25px;
+   
 }
 .treats-neutral-light {
     background-color: #F7F5F2 ;
@@ -430,34 +429,30 @@ background-color: #BEB3BE;
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
-    height: 30vh;
+    padding: 24px 0 24px 16px;
 }
 
 .color-treats .columns {
     justify-content: space-evenly;
+    /*flex-wrap: wrap;*/
 }
 
-
-.color-treats h2 {
-    margin-left: 16px;
-    padding-top: 24px;
-}
+/*.color-treats h4 {
+   width: 100%;
+}*/
 
 .color-treats .small-bodytext {
     font-size: 1.8rem;
-    padding: 0; 
+    color: #08090c;
+ display: block;
+    padding: 0;
 }
-.color-treats .mobile-100 {
-    width: 100%;
+.color-treats .column-50 {
     display: flex;
-    flex-wrap: wrap;
-}
-.desktop-colors {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 48%;
     justify-content: space-evenly;
 }
+
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
