@@ -332,7 +332,7 @@ body {
     width: 132px;
     height: 132px;
     border-radius: 10px;
-   
+    margin-bottom: 8px;
 }
 .color-treats-background {
     background-color: #FFFFFF;
@@ -363,6 +363,8 @@ body {
     width: 100%;
     justify-content: space-evenly;
 }
+
+
 /*******************************************/
     /* footer & Button*/
 /*******************************************/
