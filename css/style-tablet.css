@@ -71,7 +71,6 @@ header {
     justify-content: space-between;
 }
 
-
 /*******************************************
                 GCF
 ********************************************/
@@ -87,11 +86,18 @@ header {
      width: 100%;
     margin-bottom: 0;
     margin-top:48px;
-   font-size: 3.0rem;
+   font-size: 3.3rem;
 }
-
-
-
+.box-accent {
+    height: 24px;
+    background-color: #9FE0E0 ;
+width: 100%;
+   } 
+   
+   #thank-you-gcf .column-50 {
+       width: 100%;
+       flex-wrap: wrap;
+   }
 /*******************************************
                trEats
 ********************************************/
@@ -139,6 +145,12 @@ header {
     width: 100%;
     justify-content: space-evenly;
 }
+
+
+/*******************************************
+              AAG
+********************************************/
+
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
@@ -148,6 +160,7 @@ header {
     margin: 0 auto;
  }
 
+ 
 }  /************ END MEDIA QUERY ********/
 
 }  /************ END MEDIA QUERY ********/

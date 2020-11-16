@@ -203,7 +203,6 @@ body {
 .box-accent {
     height: 24px;
     background-color: #9FE0E0 ;
-
    } 
 
    .playfair {
@@ -279,7 +278,7 @@ body {
 #thank-you-gcf h1 {
     margin-bottom: 0;
     margin-top:0px;
-   font-size: 2.8rem;
+   font-size: 3.0rem;
 }
  
  .color-ellipses {

@@ -212,7 +212,7 @@ img {
 }
 
 /**************************************************
- Container for each section on page 
+ containers, columns, sections, row
 ************************************************* */
 .row {
     margin: 64px 0;
@@ -220,7 +220,6 @@ img {
 
 .section p {
     padding: 0 0 8px;
-    /*width: 100%;*/
 }
 .columns {
     flex-basis: 100%;
@@ -264,21 +263,10 @@ img {
  .img-in-grid {
      margin-top: 24px;
  }
-/*******************************************/
-/* layout index*/
-/*******************************************/
 
-.images-home {
-    margin-bottom: 24px;
-}
-
-/*******************************************/
-    /* layout projects*/
-/*******************************************/
-.section {
+ .section {
     margin-bottom: 64px;
 }
-
 .body-text-row  {
 margin-bottom: 48px;
 }
@@ -291,6 +279,15 @@ margin-bottom: 16px;
 
 .img-projects {
    margin-bottom: 32px;
+}
+
+
+/*******************************************/
+/* layout index*/
+/*******************************************/
+
+.images-home {
+    margin-bottom: 24px;
 }
 
 
@@ -367,8 +364,6 @@ background-color: #BEB3BE;
 .box-accent {
     height: 32px;
     width: 100%;
-    max-width: 651px;
-  margin: 0;
   background-color: #9FE0E0 ;
 } 
 .column-50 h4 {
@@ -458,7 +453,7 @@ background-color: #BEB3BE;
 }
 
 /*******************************************/
-/* Button & Footer*/
+/* Button*/
 /*******************************************/
 
 
