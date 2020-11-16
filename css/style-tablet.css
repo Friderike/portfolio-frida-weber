@@ -26,6 +26,12 @@ header {
     margin-bottom: 64px;
 
 }
+
+
+/**************************************************
+ containers, columns, sections,
+************************************************* */
+
 @media only screen and (max-width: 1024px) {
 
    .column-60 {
