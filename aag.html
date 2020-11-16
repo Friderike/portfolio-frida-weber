@@ -14,92 +14,105 @@
     <link rel="stylesheet" href="css/style-mobile.css">
 </head>
 
-<body id="aag-page">
+<body >
     <!--Header-->
-    <header class="wrapper">
-        
-        <nav class="nav">
-            <ul>
-
-                <li><a href="index.html" class="nav">Home</a> </li>
-                <li><a href="work.html" class="nav">Work</a></li>
-                <li><a href="about.html" class="nav">About</a></li>
-                <li><a href="contact.html" class="nav">Contact</a></li>
-
-            </ul>
-        </nav>
-
- <svg class="hidden-on-desktop hamburger" xmlns="http://www.w3.org/2000/svg" width="29" height="19" viewBox="0 0 29 19">
+<header class="wrapper">
+  
+    <nav class="nav">
+      <ul>
+         
+         <li><a href="index.html" class="nav" >Home</a></li>
+         <li><a href="index.html#my-work" class="nav">Work</a></li>
+            <li><a href="about.html" class="nav">About</a></li>
+               <li><a href="contact.html" class="nav">Contact</a></li>
+         
+         </ul>
+    </nav>
+  
+  <svg class="hidden-on-desktop hamburger" xmlns="http://www.w3.org/2000/svg" width="29" height="19" viewBox="0 0 29 19">
     <g id="nav" transform="translate(0 -14)">
       <rect id="Underline" width="29" height="2.714" rx="1" transform="translate(0 30.286)" fill="#f5ca9b"/>
       <rect id="Underline-2" data-name="Underline" width="29" height="2.714" rx="1" transform="translate(0 22.143)" fill="#f5ca9b"/>
       <rect id="Underline-3" data-name="Underline" width="29" height="2.714" rx="1" transform="translate(0 14)" fill="#f5ca9b"/>
     </g>
   </svg>
-    
-</header>
-    <!--End Header-->
+   
+  </header>
+  <!--End Header-->
 
     <main class="wrapper">
     
-
-        <section id="cover-aag">
+   <h1>Alaska Artist Guild - Website Redesign</h1>
+        
+   <section class="row columns">
             <!--Cover-->
-            <h1>Alaska Artist Guild - Website Redesign</h1>
-            <picture>
-                <source srcset="images/aag/mobile/m-aag-project-cover@277.png" media="(max-width:639px)" />
-                <img src="images/aag/desktop/d-aag-project-cover@460.png"
+            
+    <div class="column-50">
+                <img class="hidden-on-mobile section" src="images/aag/desktop/d-aag-project-cover-and-images@900.png"
                     alt="Alaska Artist Guild Redesign Cover Image" />
-            </picture>
+                <img class="hidden-on-desktop section" src="images/aag/mobile/m-aag-cover-and-images@500.png"
+                    alt="Alaska Artist Guild Redesign Cover Image" />
+                    
+          </div>  
+
+    <div class="column-50">
+                <img class="hidden-on-mobile" src="images/aag/desktop/d-aag-project-about@900.png"
+                    alt="Alaska Artist Guild About Page" />
+                    <img class="hidden-on-desktop" src="./images/aag/mobile/m-aag-project-about@500.png" alt="Alaska Artist Guild About Page">
+          </div>  
+
         </section>
         <!--End Cover-->
 
 
-        <section id="aag-project-overview">
+        <section >
             <!--Project overview-->
-            <div>
+            <h2>Project Overview</h2>
+            <div class="columns section">
+            <div class="column-60 ">
                 <!--1st column text-->
-                <h2>Project Overview</h2>
                 <p>
                     Modernizing the current design was the only briefing given,
-                    which allowed a lot creative freedom.
+                    which allowed a lot creative freedom. My goal was a clean, modern design, 
+                    that is focused on the art.
                 </p>
             </div>
             <!--end 1st column text-->
-            <div>
-                <!--2nd column image-->
-                <picture>
-                    <source srcset="images/aag/mobile/m-aag-project-macbook@264.png" media="(max-width:639px)" />
-                    <img src="images/aag/desktop/m-aag-project-macbook-@690.png" alt="Mackbook Mockup" />
-                </picture>
+            
+            <div class="column-50 column-30"><!--2nd column image-->
+                
+                <img class="hidden-on-mobile section" src="./images/aag/desktop/d-aag-project-laptop@900.png" 
+                alt="Mockup Macbook Pro Homepage AAG">
+                <img class="hidden-on-desktop section" src="./images/aag/mobile/m-aag-project-laptop@500.png" 
+                alt="Mockup Macbook Pro Homepage AAG">
+        
             </div>
+</div>
             <!--end 2nd column image-->
+       
         </section>
         <!--end Project Overview-->
 
-        <section id="current-design">
+        <section class="section">
             <!--current design-->
             <h2>Current Design</h2>
-            <div>
-                <picture>
-                    <source srcset="images/aag/mobile/m-aag-project-olddesign@335.png" media="(max-width:639px)" />
-                    <img src="images/aag/desktop/d-aag-project-olddesign@1638.png" alt="Current Design 3 Images" />
-                </picture>
-            </div>
-
+            
+            <img class="hidden-on-mobile" src="./images/aag/desktop/d-aag-project-olddesign@1638.png" 
+            alt="Images Old Design">   
+            <img class="hidden-on-desktop" src="./images/aag/mobile/m-aag-project-olddesign@1000.png" 
+            alt="Images Old Design">   
+            
         </section>
         <!--end current design-->
 
-        <section id="new-design">
+        <section>
             <!--new design-->
             <h2>New Design</h2>
 
-            <div>
-                <picture>
-                    <source srcset="images/aag/mobile/m-aag-project-6mockups@335.png" media="(max-width:639px)" />
-                    <img src="images/aag/desktop/d-aag-project-6mockups@1551.png" alt="New Design 6 Images Mockup">
-                </picture>
-            </div>
+            <img class="hidden-on-mobile" src="./images/aag/desktop/d-aag-project-final-design@1364.png" 
+            alt="Images New Design">   
+            <img class="hidden-on-desktop" src="./images/aag/mobile/m-aag-project-new-design@800.png" 
+            alt="Images New Design">   
 
         </section>
         <!--end new design-->

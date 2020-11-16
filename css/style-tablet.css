@@ -20,7 +20,12 @@
     width: 89%;
     margin: 0 auto;
 }
+header {
+    height: 20rem;
+    /*border-bottom: 1px solid #F5CA9B;*/
+    margin-bottom: 64px;
 
+}
 @media only screen and (max-width: 1024px) {
 
    .column-60 {
@@ -34,7 +39,6 @@
 }
 
 }
-
 
 .columns {
     flex-wrap: wrap;
@@ -95,7 +99,6 @@
 .personas .column-50 {
     width: 100%;
 }
-
 
 .box-color-swatch {
     width: 160px;

@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    height: 10rem;
+    height: 25rem;
     /*border-bottom: 1px solid #F5CA9B;*/
     margin-bottom: 64px;
 
@@ -215,7 +215,7 @@ img {
  Container for each section on page 
 ************************************************* */
 .row {
-    margin: 56px 0;
+    margin: 64px 0;
 } 
 
 .section p {
@@ -246,8 +246,7 @@ img {
 }
 .column-60 {
     width: 60%;
-    padding-right: 24px;
-   
+   padding-right: 24px;  
 }
 
 .center-element {
