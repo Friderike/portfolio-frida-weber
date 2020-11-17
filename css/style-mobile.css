@@ -79,7 +79,7 @@ body {
 
     h3 {
         font-size: 2.4rem;
-       /* margin: 0 0 8px 0*/
+      
     }
 
     h4 {
@@ -149,16 +149,7 @@ body {
     /* layout index*/
 /*******************************************/
 
-   #homepage h1 {
-        margin: 24px 0px 0;
-    }
-    
-    #homepage h3 {
-        padding: 0 0 8px 0;
-        margin: 0;
-        margin-top: 32px;
-      }
-    
+
 	.images-home {
         margin-bottom: 8px;
 	}
