@@ -63,7 +63,7 @@ h5 {
 }
 
 h1 {
-    font-size: 3.0rem;
+    font-size: 3.2rem;
     font-family: linotype-didot, serif;
     font-weight: 700;
     font-style: normal;
@@ -73,14 +73,14 @@ h1 {
 
 h2 {
     font-family: linotype-didot, serif;
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     font-weight: 400;
-    margin: 0 0 24px 0;
+    
 }
 
 h3 {
     font-family: linotype-didot, serif;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: 400;
     margin: 0 0 16px 0;
     width: 100%;
@@ -88,14 +88,14 @@ h3 {
 
 h4 {
     font-family: linotype-didot, serif;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 400;
-    margin: 0 0 24px 0;
+    margin: 0 0 32px 0;
 }
 
 h5 {
     font-family: linotype-didot, serif;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 400;
 }
 
@@ -280,7 +280,9 @@ margin-bottom: 16px;
 .img-projects {
    margin-bottom: 32px;
 }
-
+.space-bottom {
+    padding-bottom: 40px;
+}
 
 /*******************************************/
 /* layout index*/
@@ -367,7 +369,7 @@ background-color: #BEB3BE;
   background-color: #9FE0E0 ;
 } 
 .column-50 h4 {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .brand-logo {

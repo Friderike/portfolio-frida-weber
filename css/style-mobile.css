@@ -67,28 +67,28 @@ body {
 
 
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         margin: 0;
     }
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
         margin: 0 0 16px 0;
         padding: 0;
     }
 
     h3 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
        /* margin: 0 0 8px 0*/
     }
 
     h4 {
-        font-size: 2.0rem;
-        margin: 0 0 16px 0;
+        font-size: 2.2rem;
+        margin: 0 0 24px 0;
     }
 
     h5 {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 
     #title-resume {
@@ -140,6 +140,9 @@ body {
 }
 .img-in-grid.last {
     margin-top: 22px;
+}
+.space-bottom {
+    padding-bottom: 24px;
 }
 
 /*******************************************/

@@ -28,6 +28,46 @@ header {
 }
 
 
+h1 {
+    font-size: 3.0rem;
+    font-family: linotype-didot, serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding:  0;
+}
+
+h2 {
+    font-family: linotype-didot, serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    
+}
+
+h3 {
+    font-family: linotype-didot, serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+    width: 100%;
+}
+
+h4 {
+    font-family: linotype-didot, serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+h5 {
+    font-family: linotype-didot, serif;
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+
+
+
 /**************************************************
  containers, columns, sections,
 ************************************************* */
@@ -67,14 +107,14 @@ header {
 .column-50 .tablet-100 {
     min-width: 100%;
 }
- .tablet-100 h4 {
-     margin-bottom: 32px;
- }
-
+ 
  .container-color-swatches {
      width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.space-bottom {
+    padding-bottom: 32px;
 }
 
 /*******************************************
