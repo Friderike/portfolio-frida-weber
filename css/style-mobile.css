@@ -131,7 +131,6 @@ body {
     justify-content: flex-end;
   }
 
-
 .container-image-grid {
     column-count: 2;
 }
@@ -187,8 +186,11 @@ body {
     margin: 0 auto 16px;
     
 }
-/**** GCF***********************/
+
 /**********************************/
+/* GCF
+/**********************************/
+
 .box-primes {
  height: 24px;
  background-image: linear-gradient(to right, #FAF5F0, #F0E3DA, #F9BDCA, #F48BA2 );
