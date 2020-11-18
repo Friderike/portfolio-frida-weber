@@ -266,15 +266,6 @@ img {
  .section {
     margin-bottom: 64px;
 }
-/*.body-text-row  {
-margin-bottom: 48px;
-}
-.body-text-row p {
-padding: 0;
-}
-.body-text-row li {
-margin-bottom: 16px;
-}*/
 
 .img-projects {
    margin-bottom: 32px;
@@ -378,7 +369,7 @@ background-color: #BEB3BE;
     padding-top: 48px
 }
 
-#thank-you-gcf h1 {
+#thank-you-gcf h2 {
     margin-bottom: 0;
     margin-top: 64px;
     font-size: 4rem;
