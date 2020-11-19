@@ -190,7 +190,13 @@ body {
  background-image: linear-gradient(to right, #FAF5F0, #F0E3DA, #F9BDCA, #F48BA2 );
 
 } 
-
+.color-ellipses {
+    width: 100px;
+        height: 100px;
+}
+.primes-1 {
+    margin-right: unset;
+}
 .box-neutral {
     height: 24px;
     background-image: linear-gradient(to right, #FFFFFF, #BEB3BE, #694F68);
@@ -200,70 +206,7 @@ body {
     height: 24px;
     background-color: #9FE0E0 ;
    } 
-
- /*  .playfair {
-       width: 48% ;  
-   }
-
-.playfair h4  {
-    font-family: playfair-display, serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #f4e5d5;
-    
- padding-top: 2%;
-}
-.playfair h5  {
-    font-family: playfair-display, serif;
-    font-weight: 400;
-    font-size: 2rem;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}
-.playfair p {
-    font-family: playfair-display, serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #f4e5d5;
-
-}
-
-.classico {
-    padding-left: 4%;
-    width: 48%;
-}
-.classico h4 {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-style: normal;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-}*/
    
-
-.classico h5  {
-    font-family: classico-urw, sans-serif;
-    font-weight:  700;
-    font-size: 2rem;
-    color: #f4e5d5;
-    margin-bottom: 8px;
-   
-}
-
-.classico h6 {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
-    
-    color: #f4e5d5;
-    margin-bottom: 16px;
-  
-}
-.classico p {
-    font-family: classico-urw, sans-serif;
-    font-weight: 400;
-}
 .brand-logo {
     width: 43%;
     max-width: 509px;
@@ -277,9 +220,15 @@ body {
    font-size: 3.0rem;
 }
  
- .color-ellipses {
+ /*.color-ellipses {
         margin: 0 auto;
+    } */
+    .colors .column-50 {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
     }
+    
  .neutral-1 {
         background-color: #ffffff;
         width: 75px;
@@ -298,17 +247,23 @@ body {
         height: 75px;
     }
 
-.colors .small-bodytext{
+.small-bodytext{
     font-size: 1rem;
-    margin: 16px auto 24px ; 
+   /* margin: 16px auto 24px ; */
     padding: 0;
-}
+    display: block;
+} 
 
 .mobile-100 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.mobile-100 .small-bodytext {
+    flex-wrap: wrap;
+   
 }
 .mobile-100 h4 {
     display: block;
@@ -332,7 +287,7 @@ body {
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
-    padding: 24px 0 24px 16px;
+    padding: 24px 16px 24px 16px;
 }
 
 .color-treats h4 {

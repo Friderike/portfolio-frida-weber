@@ -27,7 +27,6 @@ header {
 
 }
 
-
 h1 {
     font-size: 3.0rem;
     font-family: linotype-didot, serif;
@@ -63,8 +62,6 @@ h5 {
     font-size: 2.0rem;
     font-weight: 400;
 }
-
-
 
 
 /**************************************************
@@ -105,6 +102,7 @@ h5 {
  }
 .column-50 .tablet-100 {
     min-width: 100%;
+   
 }
  
  .container-color-swatches {
@@ -126,23 +124,56 @@ h5 {
     margin: 0 auto 0px;
     padding-top: 0px
 }
-
-#thank-you-gcf h2 {
-     width: 100%;
-    margin-bottom: 0;
-    margin-top:48px;
-   font-size: 3.3rem;
+.color-ellipses {
+    width: 120px;
+        height: 120px;
 }
+
+.neutral-1 {
+    background-color: #ffffff;
+    width: 90px;
+    height: 90px;
+}
+
+.neutral-2 {
+background-color: #BEB3BE;
+width: 90px;
+height: 90px;
+}
+
+.neutral-3 {
+    background-color: #694F68;
+    width: 90px;
+    height: 90px;
+}
+
+
 .box-accent {
     height: 24px;
     background-color: #9FE0E0 ;
 width: 100%;
    } 
+   .colors .column-50 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+   .colors .small-bodytext {
+    font-size: 1.6rem;
+ display: block;
+    padding: 0;
+}
    
    #thank-you-gcf .column-50 {
        width: 100%;
        flex-wrap: wrap;
    }
+   #thank-you-gcf h2 {
+     width: 100%;
+    margin-bottom: 0;
+    margin-top:48px;
+   font-size: 3.3rem;
+}
 /*******************************************
                trEats
 ********************************************/
@@ -161,7 +192,7 @@ width: 100%;
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
-   padding: 24px 0 24px 16px;
+   padding: 24px 16 24px 16px;
 }
 
 
