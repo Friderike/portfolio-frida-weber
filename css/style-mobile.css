@@ -247,11 +247,10 @@ body {
         height: 75px;
     }
 
-.small-bodytext{
-    font-size: 1rem;
-   /* margin: 16px auto 24px ; */
-    padding: 0;
-    display: block;
+.xtra-small-bodytext{
+    font-size: 1.2rem;
+  padding: 0;
+  
 } 
 
 .mobile-100 {

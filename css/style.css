@@ -151,6 +151,9 @@ header>nav {
     list-style: none;
 }
 
+.nav>a{
+    transition: 2s;
+}
 .nav ul li {
     display: inline-block;
     padding: 0 15px 0 0;
@@ -304,7 +307,6 @@ display: flex;
 
 } 
 
-
 .color-ellipses {
     width: 150px;
         height: 150px;
@@ -334,20 +336,20 @@ background-color: #F48BA2;
 }
 .neutral-1 {
     background-color: #ffffff;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
 }
 
 .neutral-2 {
 background-color: #BEB3BE;
-width: 110px;
-height: 110px;
+width: 130px;
+height: 130px;
 }
 
 .neutral-3 {
     background-color: #694F68;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
 }
 
 .container-color-swatches {
@@ -366,7 +368,6 @@ height: 110px;
 } 
 .column-50 h4 {
     margin-bottom: 24px;
-    width: 100%;
   
 }
 
@@ -380,12 +381,17 @@ height: 110px;
     justify-content: flex-end;
 }
 
-
 .colors .small-bodytext {
     font-size: 1.6rem;
  display: block;
     padding: 0;
 }
+.xtra-small-bodytext{
+    font-size: 1.4rem;
+    font-weight: 300;
+  padding: 0;
+  
+} 
 .brand-logo {
     width: 43%;
     max-width: 509px;
@@ -494,6 +500,7 @@ height: 110px;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
+    transition: 0.4s;
    
 
 }

@@ -131,22 +131,21 @@ h5 {
 
 .neutral-1 {
     background-color: #ffffff;
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
 }
 
 .neutral-2 {
 background-color: #BEB3BE;
-width: 90px;
-height: 90px;
+width: 110px;
+height: 110px;
 }
 
 .neutral-3 {
     background-color: #694F68;
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
 }
-
 
 .box-accent {
     height: 24px;
@@ -222,7 +221,6 @@ width: 100%;
     justify-content: space-evenly;
 }
 
-
 /*******************************************
               AAG
 ********************************************/
@@ -236,7 +234,24 @@ width: 100%;
     margin: 0 auto;
  }
 
- 
+
+ /*******************************************
+         Menu  transitions & animations
+********************************************/
+.slide-menu:hover {
+width: 100%;
+background-color: #08090c;
+} 
+.slide-menu:focus {
+    width: 100%;
+    background-color: #08090c;
+} 
+.slide-menu:active {
+    width: 100%;
+    background-color: #08090c;
+} 
+
+
 }  /************ END MEDIA QUERY ********/
 
 }  /************ END MEDIA QUERY ********/
