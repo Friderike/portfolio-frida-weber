@@ -48,7 +48,54 @@ header.index {
     padding-top: 20vh;
    margin: 0 auto;
 }
+#logo-text {
+    width: 30rem;
+    min-width: 15rem;
+    padding-top: 24px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
 }
+}
+#logo-spin {
+    animation: spin 25s linear infinite,
+opacity 3s linear;
+    transform-origin: center;    
+}
+
+.opacity-in {
+animation: opacity 5s linear;
+}
+
+@keyframes spin {
+    from { transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes stretching {
+   0% {
+    transform: scale(0.0);
+    width: 0;
+}
+100% { transform: scale(1);
+    width: 100%;
+}
+}
+
+@keyframes opacity {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 100%;
+}
+}
+
+
 /*******************************************/
 /* layout styling*/
 /*******************************************/
@@ -151,9 +198,6 @@ header>nav {
     list-style: none;
 }
 
-.nav>a{
-    transition: 2s;
-}
 .nav ul li {
     display: inline-block;
     padding: 0 15px 0 0;
@@ -189,6 +233,28 @@ header>nav {
     text-decoration: underline;
 }
 
+.thumbnail {
+    transition: 0.3s opacity;
+
+}
+.thumbnail:hover {
+   opacity: 0.7;
+}
+
+.thumbnail:focus {
+   opacity: 0.7;
+}
+
+.thumbnail:active {
+   opacity: 0.7;
+}
+
+.increase-font-size {
+    transition: 0.3s font-size;
+}
+.increase-font-size:hover {
+    font-size: 2rem;
+}
 
 @media only screen and (min-width: 640px) {
     .hidden-on-desktop {
@@ -436,21 +502,22 @@ height: 130px;
     margin-bottom: 16px;
 }
 .treats-prime-1 {
-    background-color: #F79119 ;
-    
+    background-color: #F79119 ;  
 }
+
 .treats-prime-2 {
     background-color: #FE8C3B ;
 }
+
 .treats-neutral-dark {
-    background-color: #1C0E0E ;
-   
+    background-color: #1C0E0E ; 
 }
+
 .treats-neutral-light {
     background-color: #F7F5F2 ;
-    border: solid 1px #1C0E0E;
-    
+    border: solid 1px #1C0E0E;   
 }
+
 .color-treats-background {
     background-color: #FFFFFF;
     width: 100%;
@@ -459,7 +526,6 @@ height: 130px;
 
 .color-treats .columns {
     justify-content: space-evenly;
-   
 }
 
 .color-treats .small-bodytext {
@@ -500,9 +566,7 @@ height: 130px;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    transition: 0.4s;
-   
-
+    transition: 0.5s;
 }
 .container-button .button-resume {
     color: #F5CA9B;

@@ -43,10 +43,17 @@ body {
     #logo {
         width: 15rem;
          min-width: 15rem;
-         padding-top: 20vh;
+         padding-top: 10vh;
          padding-bottom: 24px;
       margin: 0 auto;
      }
+
+     #logo-text {
+        width: 15rem;
+        min-width: 15rem;
+        padding-top: 16px;
+       margin: 0 auto;
+    }
  }
    
 	.wrapper {
@@ -143,6 +150,13 @@ body {
 }
 .space-bottom {
     padding-bottom: 24px;
+}
+
+.increase-font-size {
+    transition: font-size;
+}
+.increase-font-size:hover {
+    font-size: 2rem;
 }
 
 /*******************************************/

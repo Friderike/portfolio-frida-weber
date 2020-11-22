@@ -15,6 +15,12 @@
     padding-bottom: 24px;
  margin: 0 auto;
 }
+#logo-text {
+    width: 22rem;
+    min-width: 22rem;
+    padding-top: 24px;
+   margin: 0 auto;
+}
 
 .wrapper {
     width: 89%;
@@ -113,6 +119,7 @@ h5 {
 .space-bottom {
     padding-bottom: 32px;
 }
+
 
 /*******************************************
                 GCF
@@ -236,20 +243,8 @@ width: 100%;
 
 
  /*******************************************
-         Menu  transitions & animations
+       transitions & animations
 ********************************************/
-.slide-menu:hover {
-width: 100%;
-background-color: #08090c;
-} 
-.slide-menu:focus {
-    width: 100%;
-    background-color: #08090c;
-} 
-.slide-menu:active {
-    width: 100%;
-    background-color: #08090c;
-} 
 
 
 }  /************ END MEDIA QUERY ********/
