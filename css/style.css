@@ -384,7 +384,6 @@ display: flex;
 
  .primes-1 {
     background-color: #FAF7F5;
-    margin-right: -10%;
     }
     
 .primes-2 {
@@ -393,7 +392,6 @@ display: flex;
     
 .seconds-1 {
 background-color: #E693A5;
-padding-right: 10%;
 }
 
 .seconds-2 {
@@ -473,7 +471,9 @@ height: 130px;
 #thank-you-gcf .column-content {
   max-width: 685px;
 }
-
+.title-colors-desktop {
+    width: 300px;
+}
 
 /*******************************************/
 /* layout aag*/
