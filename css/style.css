@@ -233,11 +233,10 @@ header>nav {
     text-decoration: underline;
 }
 
-.thumbnail {
+.opacity-lower {
     transition: 0.3s opacity;
-
 }
-.thumbnail:hover {
+.opacity-lower:hover {
    opacity: 0.7;
 }
 
