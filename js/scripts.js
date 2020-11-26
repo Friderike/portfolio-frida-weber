@@ -1,1 +1,1 @@
-console.log(`Hi, thanks for stopping by!`)
+console.log(`Hi there, thanks for stopping by!`)
