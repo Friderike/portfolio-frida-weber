@@ -15,7 +15,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #F4E5D5;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 2.4rem;
     font-kerning: auto;
     margin: 0px;
@@ -26,6 +26,7 @@ body {
     width: 80%;
     max-width: 1364px;
     margin: 0 auto;
+    padding-top: 16px;
 }
 
 header {

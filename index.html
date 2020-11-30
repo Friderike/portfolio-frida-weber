@@ -22,7 +22,14 @@
     <div>
     <header class=" wrapper index">
 
-      <nav class="nav">
+<div class="hidden-on-desktop hamburger">
+<img  src="./images/Hamburger.svg" alt="Hamburger Icon">
+</div>
+
+      <nav class="nav slide">
+         <div class=" close">
+            <img class="close" src="./images/x.svg" alt="Hamburger Icon">
+            </div>
          <ul>
          
          <li> <a href="index.html" class="nav" id="home">Home</a></li>
@@ -31,25 +38,17 @@
          <li> <a href="#contact" class="nav">Contact</a></li>
      
       </ul>
-      </nav>
+    
+   
+</nav>
 
-<div class="wrapper">
-   <svg class="hidden-on-desktop hamburger" >
-         <g id="nav" transform="translate(0 -14)">
-           <rect id="Underline" width="29" height="2.714" rx="1" transform="translate(0 30.286)" fill="#f5ca9b"/>
-           <rect id="Underline-2" data-name="Underline" width="29" height="2.714" rx="1" transform="translate(0 22.143)" fill="#f5ca9b"/>
-           <rect id="Underline-3" data-name="Underline" width="29" height="2.714" rx="1" transform="translate(0 14)" fill="#f5ca9b"/>
-         </g>
-       </svg>
-  </div>  
-
-      <div id="logo" >
+<div id="logo" >
             <img id="logo-spin" src="./images/logo-animation2.svg" alt="Spinning Logo">
          
       </div>
       <!--end logo-->
    <div id="logo-text" >
-<img class="opacity-in" src="./images/logo-text.svg" alt="">
+<img class="opacity-in" src="./images/logo-text.svg" alt="Design Art Frida">
    </div>
 
    </header>
@@ -61,17 +60,15 @@
       <!--Hero Section-->
       <div class="section space-bottom">
 
-         <div>
+         <div class="section space-bottom">
+            <h3 class="text-centered space-bottom">
+              I Love Art !
+            </h3>
             <p>
-               Hello,
-            </p>
-            <p >
-               I am Frida. UI Designer and Artist based in the US and Germany.
-               Coming from an artistic background as a
-               Tattoo Artist who turned UI Designer / Illustrator,
-               I have a great love for visual details.
-               It is my goal to create user friendly and visually pleasing designs.
-            </p>
+               Welcome to my portfolio website. <br>
+             I am Frida.  A Tattoo and Make - Up Artist, turned UI Designer based in the US and Germany.
+               </p>
+
          </div>
       </div>
       <!--End Hero Section-->
@@ -265,6 +262,10 @@
 
 </footer>
  
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+crossorigin="anonymous"></script>
 
 <script src="./js/scripts.js"> </script>
 </body>
