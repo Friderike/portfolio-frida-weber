@@ -33,25 +33,13 @@ body {
     header.index {
         height: 100vh;
          min-width: 100%;
-         padding: 0;
+         padding: 16px 16px;
     }
- .hamburger {
-   margin-top: 5%;
-   width: 28px;
-   margin-left: 6%;
-   cursor: pointer;
- }
- .close {
-   cursor: pointer;
-   display: flex;
- }
- .close img {
-    width: 24px;
- }
-
-.slide .close {
-    justify-content: right;
-}
+    .wrapper {
+		width: 89%;
+		margin: 0 auto;
+	
+	}
 
 @media (max-width: 639px) {
     #logo {
@@ -69,12 +57,7 @@ body {
        margin: 0 auto;
     }
  }
-   
-	.wrapper {
-		width: 89%;
-		margin: 0 auto;
-	
-	}
+
    
     .mobile-profile {
         width: 28%;
@@ -82,6 +65,26 @@ body {
         margin: 42px auto 0;
     }
 
+    .hamburger {
+        width: 28px;
+       cursor: pointer;
+      }
+      .close {  
+          display: inline-block;
+      
+        cursor: pointer;
+        display: flex;  
+        display: -webkit-flex;
+      }
+      .close img {
+         width: 24px;
+      }
+     
+     .slide .close {
+         justify-content: right;
+         -webkit-justify-content: flex-end;
+         
+     }
 
 .slide {
      width: 87%;
@@ -89,26 +92,36 @@ body {
     background-color: #111115;
     position: absolute;
     left: 0;
-    padding: 16px 16px;
-    
+    padding: 16px 24px;
     transform: translateX(-100%); 
-    transition: transform 2.s ease-in;
+    transition: transform 0.8s ease-in;
+    position: absolute;
+    top: 0%;
  }
 .slide ul {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    padding-top: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 55vh;
-    width: 100%;
+
 }
 .slide ul li {
-    display: block;
+    
     padding: 0;
 
 } 
+.slide #logo-text {
+    display: hidden;
+    transition: none;
+}
+
 .slide-active {
     transform: translateX(0);
-   
+   transition: transform 0.8s ease-in;
 }
 
     h1 {
@@ -136,14 +149,6 @@ body {
         font-size: 1.8rem;
     }
 
-    #title-resume {
-        font-family: linotype-didot, serif;
-        font-size: 2.2rem;
-        font-weight: 400;
-        margin: 0 0 4px 0;
-    }
-
- 
     .row {
         margin: 32px auto;
     } /* .section only bottom margin*/
@@ -200,7 +205,6 @@ body {
 /*******************************************/
     /* layout index*/
 /*******************************************/
-
 
 	.images-home {
         margin-bottom: 8px;
@@ -321,6 +325,30 @@ body {
     width: 100%;
 }
 
+
+
+/*******************************************/
+    /* layout About*/
+/*******************************************/
+
+
+#title-resume {
+    font-family: linotype-didot, serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0 0 4px 0;
+}
+.space-bottom h2 {
+padding-bottom: 16px;
+}
+#about-page .columns {
+    padding: 24px 0 32px;
+}
+.container-button {
+   margin: unset;
+}
+
+
 /*******************************************/
     /* layout trEats*/
 /*******************************************/
@@ -367,12 +395,9 @@ body {
 
 
 /*******************************************/
-    /* footer & Button*/
+    /* footer */
 /*******************************************/
 
-.container-button {
-    margin: 32px 0 48px;
-}
 
 	.footer {
         margin-top: 48px; 

@@ -195,8 +195,7 @@ a:active {
 
 header>nav {
     min-height: min-content;
-    padding-top: 3vh;
-    list-style: none;
+   list-style: none;
 }
 
 .nav ul li {
@@ -238,6 +237,9 @@ header>nav {
     transition: 0.3s opacity;
 }
 .opacity-lower:hover {
+   opacity: 0.7;
+}
+.opacity-lower:focus {
    opacity: 0.7;
 }
 
@@ -554,32 +556,42 @@ height: 130px;
     transform: translatex(-50%);
     position: relative;
     margin: 48px 0 96px;
+    transition: 0.4s;
 }
-
+.container-button:focus {
+    width: 46%;
+    max-width: 550px;
+}
+.container-button:hover {
+    width: 46%;
+    max-width: 550px;
+}
 .button-resume {
     display: inline-block;
     max-width: 544px;
     width: 100%;
-    border: 1px solid #F5CA9B;
-    background-color: transparent;
+   /* border: 1px solid #F5CA9B;*/
+    background-color: #F5CA9B;
     font-weight: 400;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    transition: 0.5s;
+    transition: 0.4s font-size;
 }
 .container-button .button-resume {
-    color: #F5CA9B;
+    color: #08090c;
 }
 
-.button-resume:focus {
-    background-color: #F5CA9B;
-    color: #08090c;
+ .button-resume:focus {
+   /* background-color: #F5CA9B;
+    color: #08090c;*/
+    font-size: 1.9rem;
 }
 
 .button-resume:hover {
-    background-color: #F5CA9B;
-    color: #08090c;
+    /*background-color: #F5CA9B;
+    color: #08090c;*/
+    font-size: 1.9rem;
 }
 
 
