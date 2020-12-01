@@ -1,21 +1,20 @@
 console.log(`Hi there, thanks for stopping by!`)
 
 
-/*const navSlide = ()=> {
+const navSlide = ()=> {
 
-    const hamburger = $(`.hamburger`);
-   const navS = $(`.slide`); 
+    const hamburger = $(`.hamburger`)[0];
+   const navS = $(`.slide`)[0]; 
+   //console.log(navS)
    // $ is equal to document.querySelector or document.querySelectorAll
    
 
    hamburger.addEventListener(`click`, () => {
-       navS.classlist.toggle(`slide-active`);
-   }); WHY IS THIS NOT A FUNCTION?
+       navS.classList.toggle(`slide-active`);
+   }); 
 
-   $(`.hamburger`).on(`click`, function() {
-       navS.classlist.toggle(`slide-active`);
-   })
+   
 } 
 
-navSlide();*/
+navSlide();
 
