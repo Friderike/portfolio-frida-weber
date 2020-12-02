@@ -8,12 +8,13 @@
 html {
     margin: 0px;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #08090c;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #F4E5D5;
+    color: #f5ebdf;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.4rem;
@@ -58,6 +59,7 @@ header.index {
    justify-content: center;
 }
 }
+
 #logo-spin {
     animation: spin 25s linear infinite,
 opacity 3s linear;
@@ -96,7 +98,19 @@ animation: opacity 5s linear;
 }
 }
 
-
+.slide {
+    width: 87%;
+    height: 100vh;
+   background-color: #111115;
+   position: absolute;
+   left: 0;
+   padding: 16px 24px;
+   transform: translateX(-100%); 
+   transition: transform 0.8s ease-in;
+   position: absolute;
+   top: 0%;
+  
+}
 /*******************************************/
 /* layout styling*/
 /*******************************************/
@@ -106,7 +120,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: #F5CA9B;
+    color: #f2cca3;
     line-height: 1.4;
 }
 
@@ -193,6 +207,10 @@ a:active {
     color: #bcceed;
 }
 
+/**************************************************
+            NAV & MENU & SLIDE MENU
+************************************************* */
+
 header>nav {
     min-height: min-content;
    list-style: none;
@@ -204,7 +222,7 @@ header>nav {
 }
 
 .nav ul li>a {
-    color: #F4E5D5;
+    color: #f5ebdf;
     font-size: 1.6rem;
     font-weight: 300;
     display: inline-block;
@@ -218,19 +236,57 @@ header>nav {
     font-weight: 600;
 }
 
-.nav#home {
-    color: #F5CA9B;
+.nav#home-mobile {
+    color: #f2cca3;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-left: 0;
+}
+.nav#home-desktop {
+    color: #f2cca3;
     font-size: 1.6rem;
     font-weight: 400;
     text-decoration: underline;
     padding-left: 0;
 }
 
-.nav#about {
-    color: #F5CA9B;
+.nav#about-mobile {
+    color: #f2cca3;
     font-size: 1.6rem;
     font-weight: 400;
     text-decoration: underline;
+}
+.nav#about-desktop {
+    color: #f2cca3;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#about-page #logo {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
+
+} 
+#aag-page #logo  {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
+
+}
+#gcf-page #logo  {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
+
+}
+#treats-page #logo  {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
+
 }
 
 .opacity-lower {
@@ -556,7 +612,7 @@ height: 130px;
     transform: translatex(-50%);
     position: relative;
     margin: 48px 0 96px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 .container-button:focus {
     width: 46%;
@@ -571,7 +627,7 @@ height: 130px;
     max-width: 544px;
     width: 100%;
    /* border: 1px solid #F5CA9B;*/
-    background-color: #F5CA9B;
+    background-color: #f2cca3;
     font-weight: 400;
     text-align: center;
     padding: 4px;
@@ -610,7 +666,7 @@ height: 130px;
 }
 
 .footer {
-    border-top: 1px solid #F5CA9B;
+    border-top: 1px solid#f2cca3;
     width: 100%;
    margin-top: 96px;
 }
