@@ -8,6 +8,9 @@
 
 @media  (max-width: 1024px ) {
 @media  (min-width: 640px ) {
+body {
+    padding-top: 44px;
+}
 
 #logo {
     width: 21rem;
@@ -32,6 +35,14 @@ header {
    margin-bottom: 64px;
 
 }
+header.wrapper {
+padding-top: 0%;
+}
+
+header.index {
+    height: 75vh;
+   padding-top: 0;    
+} 
 
 h1 {
     font-size: 3.0rem;
@@ -69,6 +80,14 @@ h5 {
     font-weight: 400;
 }
 
+/**************************************************
+    Index
+************************************************* */
+
+.intro-text p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
 
 /**************************************************
  containers, columns, sections,
@@ -240,11 +259,6 @@ width: 100%;
     width: 89%;
     margin: 0 auto;
  }
-
-
- /*******************************************
-       transitions & animations
-********************************************/
 
 
 }  /************ END MEDIA QUERY ********/
