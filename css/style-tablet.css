@@ -26,12 +26,10 @@
 .wrapper {
     width: 89%;
     margin: 0 auto;
-    
 }
 header {
     height: 20rem;
-    /*border-bottom: 1px solid #F5CA9B;*/
-    margin-bottom: 64px;
+   margin-bottom: 64px;
 
 }
 

@@ -47,14 +47,14 @@ body {
     #logo {
         width: 15rem;
          min-width: 15rem;
-         padding-top: 10vh;
-         padding-bottom: 24px;
+         padding-top: 12vh;
+         padding-bottom: 16px;
       margin: 0 auto;
      }
 
      #logo-text {
-        width: 15rem;
-        min-width: 15rem;
+        width: 18rem;
+        min-width: 18rem;
         padding-top: 16px;
        margin: 0 auto;
     }
