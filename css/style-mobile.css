@@ -34,11 +34,12 @@ body {
     header.index {
         height: 100vh;
          min-width: 100%;
-         padding: 16px 16px;
+         padding: 44px 20px 16px;
     }
     .wrapper {
 		width: 89%;
-		margin: 0 auto;
+        margin: 0 auto;
+        padding-top: 44px;
 	
 	}
 
