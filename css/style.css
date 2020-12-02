@@ -612,7 +612,7 @@ height: 130px;
     transform: translatex(-50%);
     position: relative;
     margin: 48px 0 96px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .container-button:focus {
     width: 46%;
