@@ -41,7 +41,7 @@ $(`#my-work`).scrollIntoView({
 });
 */
 
-
+//WHY IS THIS NOT A FUNCTION AGAIN?
 
 /*
 $(`#contact`).scrollIntoView({
