@@ -8,9 +8,14 @@
 
 @media  (max-width: 1024px ) {
 @media  (min-width: 640px ) {
-body {
-    padding-top: 44px;
-}
+
+    body {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-weight: 300;
+        overflow-x: hidden;
+        padding-top: 44px;
+   }
 
 #logo {
     width: 21rem;
@@ -106,7 +111,6 @@ h5 {
 }
 
 }
-
 .columns {
     flex-wrap: wrap;
 }

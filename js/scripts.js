@@ -19,8 +19,33 @@ const navSlide = ()=> {
        navS.classList.toggle(`slide-active`);
    });
   
- 
 } 
-
 navSlide();
+
+/*
+const scroll= () => {
+const myWork = $(`#my-work`);
+
+myWork.scrollIntoView(
+    {behavior: `smooth`,}
+);
+console.log(myWork)
+}
+scroll();*/
+
+
+
+/*
+$(`#my-work`).scrollIntoView({
+    behavior: `smooth`
+});
+*/
+
+
+
+/*
+$(`#contact`).scrollIntoView({
+    behavior: `smooth`
+});
+*/
 

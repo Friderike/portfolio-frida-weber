@@ -8,7 +8,7 @@
 html {
     margin: 0px;
     font-size: 62.5%;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.4rem;
-    font-kerning: auto;
+    letter-spacing: 0.5px;
     margin: 0px;
     width: 100%;
 }
@@ -67,7 +67,7 @@ opacity 3s linear;
 }
 
 .opacity-in {
-animation: opacity 5s linear;
+animation: opacity 2.5s linear;
 }
 
 @keyframes spin {
@@ -357,7 +357,8 @@ img {
 .column-content {
     padding: 0 5% 0 0;
     margin-bottom: 24px;
-    max-width: 48%;
+    width: 31%;
+    /*max-width: 48%;*/
 }
 
 .column-50 {
@@ -614,19 +615,15 @@ height: 130px;
     width: 43%;
     min-width: 161px;
    max-width: 544px;
-    left: 50%;
-    right: 50%;
-    transform: translatex(-50%);
-    position: relative;
-    margin: 48px 0 96px;
+    margin: 48px auto 96px;
     transition: 0.4s;
 }
 .container-button:focus {
-    width: 46%;
+    width: 50%;
     max-width: 550px;
 }
 .container-button:hover {
-    width: 46%;
+    width: 50%;
     max-width: 550px;
 }
 .button-resume {

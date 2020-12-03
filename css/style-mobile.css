@@ -45,7 +45,7 @@ body {
     header.wrapper {
         padding-top: 0%;
         }
-        
+
 @media (max-width: 639px) {
     #logo {
         width: 15rem;
@@ -181,6 +181,18 @@ body {
     padding: 0;
     width: 100%;
 }
+.column-content {
+    padding: 0;
+    margin-bottom: 24px;
+    width: 48%;
+   
+}
+
+.column-content .column-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .end {
     width: 100%;
     display: flex;
@@ -358,9 +370,16 @@ padding-bottom: 16px;
     padding: 24px 0 32px;
 }
 .container-button {
-   margin: unset;
+  
+   margin: 48px auto;
 }
+.container-button:focus {
+    width: 55%;
 
+}
+.container-button:hover {
+    width: 55%;
+}
 
 /*******************************************/
     /* layout trEats*/
