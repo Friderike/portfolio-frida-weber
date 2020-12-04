@@ -1,4 +1,4 @@
-console.log(`Hi there, thanks for stopping by!`)
+console.log(`Hi there, thanks for stopping by!`);
 
 
 const navSlide = ()=> {
@@ -6,7 +6,7 @@ const navSlide = ()=> {
     const hamburger = $(`.hamburger`)[0];
    const navS = $(`.slide`)[0];
    const close = $(`.close`)[0]; 
-   
+   const body = $(`body`)[0];
    //console.log(navS)
    // $ is equal to document.querySelector or document.querySelectorAll
    
@@ -18,34 +18,22 @@ const navSlide = ()=> {
    close.addEventListener(`click`, () => {
        navS.classList.toggle(`slide-active`);
    });
-  
+   
 } 
 navSlide();
 
-/*
-const scroll= () => {
-const myWork = $(`#my-work`);
 
-myWork.scrollIntoView(
+const scroll= () => {
+const scrollGroup = document.getElementsByClassName(`smooth-scroll`);
+
+for(let i= 0; i < scrollGroup.length; i++) {
+scrollGroup[i].scrollIntoView (
     {behavior: `smooth`,}
 );
-console.log(myWork)
 }
-scroll();*/
 
+console.log(scrollGroup)
+}
+scroll(); 
 
-
-/*
-$(`#my-work`).scrollIntoView({
-    behavior: `smooth`
-});
-*/
-
-//WHY IS THIS NOT A FUNCTION AGAIN?
-
-/*
-$(`#contact`).scrollIntoView({
-    behavior: `smooth`
-});
-*/
 
