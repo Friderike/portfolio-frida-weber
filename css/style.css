@@ -8,7 +8,7 @@
 html {
     margin: 0px;
     font-size: 62.5%;
-    /*scroll-behavior: smooth;*/
+   scroll-behavior: smooth;
 }
 
 body {
@@ -107,7 +107,7 @@ animation: opacity 2.5s linear;
    padding: 16px 24px;
    transform: translateX(-100%); 
    transition: transform 0.8s ease-in;
-   position: fixed;
+   position: absolute;
    top: 0%;
   
 }

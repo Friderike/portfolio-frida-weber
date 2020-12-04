@@ -22,7 +22,7 @@ const navSlide = ()=> {
 } 
 navSlide();
 
-
+/*
 const scroll= () => {
 const scrollGroup = document.getElementsByClassName(`smooth-scroll`);
 
@@ -34,6 +34,6 @@ scrollGroup[i].scrollIntoView (
 
 console.log(scrollGroup)
 }
-scroll(); 
+scroll(); */
 
 
