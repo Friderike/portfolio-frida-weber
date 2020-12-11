@@ -252,10 +252,31 @@ width: 100%;
     justify-content: space-evenly;
 }
 
-/*******************************************
-              AAG
-********************************************/
 
+/*******************************************/
+ /* martial arts Project*/
+ /*******************************************/
+
+ .ninjas .column-30 {
+     width: 48%;
+     flex-wrap: wrap;
+ }
+ .ninjas .column-50 {
+     width: 100%;
+     flex-wrap: wrap;
+ }
+ .ninjas .center-element {
+     width: 48%;
+     flex-wrap: wrap;
+     justify-content: unset;
+ }
+
+ .box-martial-arts {
+    width: 100%;
+    height: 56px;
+    background-image: linear-gradient(to right,
+     #FE9B15,#ed7206, #d53f09);
+}
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
