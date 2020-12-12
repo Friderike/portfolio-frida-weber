@@ -35,7 +35,7 @@ scrollGroup[i].addEventListener(`click`,function(clickEvent) {
     clickEvent.preventDefault();
 
     //Gets the element to scroll down to
-    let elementID = this.getAttribute(`href`).substring(1,this.getAttribute(`href`).lenght),
+    let elementID = this.getAttribute(`href`).substring(1,this.getAttribute(`href`).length),
     element = document.getElementById(elementID);
 
     //Scrolls smoothly
