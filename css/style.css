@@ -283,7 +283,11 @@ header>nav {
     min-width: unset;
     width: 100px;
     margin-top: 50vh;
-
+}
+#martial-arts #logo  {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
 }
 
 .opacity-lower {
@@ -376,10 +380,13 @@ img {
     display: flex;
     justify-content: center;
 }
-.end {
- 
+.end { 
 display: flex;
    justify-content: flex-end;
+ }
+
+ .flex-grow {
+     flex-grow: 1;
  }
 
  .container-3images-grid {
@@ -634,10 +641,14 @@ height: 130px;
     height: 64px;
     background-image: linear-gradient(to right,
      #FE9B15,#ed7206, #d53f09);
+     padding: 16px 8px 8px;
 }
- /*.box-martial-arts h2 {
+ #martial-arts .box-martial-arts h2 {
     color: #08090c;
-}*/
+    padding: unset;
+    margin: unset;
+    font-weight: 600;
+}
 /*******************************************/
 /* Button*/
 /*******************************************/
