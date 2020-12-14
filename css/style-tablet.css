@@ -5,7 +5,11 @@
 
 }
 
+@media  (max-width: 850px ) {
+@media  (min-width: 641px ) {
 
+}
+}
 @media  (max-width: 1024px ) {
 @media  (min-width: 640px ) {
 
@@ -36,8 +40,8 @@
     margin: 0 auto;
 }
 header {
-    height: 20rem;
-   margin-bottom: 64px;
+    height: 15rem;
+   margin-bottom: 40px;
 
 }
 header.wrapper {
