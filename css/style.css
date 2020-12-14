@@ -46,6 +46,7 @@ header.index {
     min-width: 15rem;
     padding-top: 20vh;
    margin: 0 auto;
+   
 }
 #logo-text {
     width: 30rem;
@@ -99,15 +100,13 @@ animation: opacity 2.5s linear;
     width: 87%;
     height: 100vh;
    background-color: #111115;
-   position: absolute;
+   position: fixed;
    left: 0;
    padding: 16px 24px;
    transform: translateX(-100%); 
-   transition: transform 0.8s ease-in;
-   position: absolute;
-   top: 0%;
-  
-}
+   transition: transform 0.6s ease-in;
+  top: 0%;
+  }
 /*******************************************/
 /* layout styling*/
 /*******************************************/

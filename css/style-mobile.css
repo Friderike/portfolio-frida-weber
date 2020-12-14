@@ -23,11 +23,11 @@ body {
      line-height: 2.2rem;
      font-weight: 300;
      overflow-x: hidden;
-     padding-top: 36px;
+     padding-top: 32px;
 }
 
     header {
-        height: 12rem;
+        height: 10rem;
         margin-bottom: 32px;
     }
    
@@ -53,6 +53,7 @@ body {
          padding-top: 12vh;
          padding-bottom: 16px;
       margin: 0 auto;
+      position: sticky;
      }
 
      #logo-text {
@@ -94,13 +95,12 @@ body {
      width: 87%;
      height: 100vh;
     background-color: #111115;
-    position: absolute;
+    position: fixed;
     left: 0;
     padding: 16px 24px;
     transform: translateX(-100%); 
-    transition: transform 0.8s ease-in;
-    position: absolute;
-    top: 0%;
+    transition: transform 0.6s ease-in;
+   top: 0%;
    
  }
 .slide ul {
