@@ -277,6 +277,10 @@ width: 100%;
     background-image: linear-gradient(to right,
      #FE9B15,#ed7206, #d53f09);
 }
+
+.respo-h3-index {
+    font-size: 2.1rem;
+}
 /*******************************************/
 /* Button & Footer*/
 /*******************************************/
