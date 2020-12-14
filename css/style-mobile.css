@@ -27,12 +27,12 @@ body {
 }
 
     header {
-        height: 100vh;
+        height: 14rem;
         margin-bottom: 32px;
     }
    
     header.index {
-        height: 70vh;
+        height: 100vh;
          min-width: 100%;
         padding: 0px 20px;
     } 

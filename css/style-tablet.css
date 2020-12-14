@@ -21,7 +21,11 @@
             padding-top: 16px;
            margin: 0 auto;
         }
-    
+        header.index {
+            height: 100vh;
+           padding-top: 0;    
+        } 
+
     }
     } 
 
@@ -55,7 +59,7 @@
     margin: 0 auto;
 }
 header {
-    height: 100vh;
+    height: 16rem;
    margin-bottom: 0px;
 
 }
@@ -64,7 +68,7 @@ padding-top: 0%;
 }
 
 header.index {
-    height: 85vh;
+    height: 100vh;
    padding-top: 0;    
 } 
 
