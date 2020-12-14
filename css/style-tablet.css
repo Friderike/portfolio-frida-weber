@@ -10,7 +10,7 @@
 
 }
 }
-@media  (max-width: 1024px ) {
+@media  (max-width: 1023px ) {
 @media  (min-width: 640px ) {
 
     body {
@@ -29,9 +29,9 @@
  margin: 0 auto;
 }
 #logo-text {
-    width: 22rem;
-    min-width: 22rem;
-    padding-top: 24px;
+    width: 24rem;
+    min-width: 24rem;
+    padding-top: 16px;
    margin: 0 auto;
 }
 
