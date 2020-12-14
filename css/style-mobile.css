@@ -23,7 +23,7 @@ body {
      line-height: 2.2rem;
      font-weight: 300;
      overflow-x: hidden;
-     padding-top: 44px;
+     padding-top: 36px;
 }
 
     header {
@@ -439,7 +439,9 @@ padding-bottom: 16px;
     height: 48px;
     background-image: linear-gradient(to right,
      #FE9B15,#ed7206, #d53f09);
+     padding: 6px 8px;
 }
+
 /*******************************************/
     /* footer */
 /*******************************************/
