@@ -232,8 +232,11 @@ body {
     }
     .intro-text h3 {
         margin-bottom: 24px;
-       
     }
+    .rounded-corners {
+        border-radius: 8px;
+    }
+
 /*******************************************/
     /* layout projects containers, columns, section*/
 /*******************************************/
