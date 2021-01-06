@@ -32,17 +32,17 @@
     @media (min-width: 851px) {
         @media (max-width: 1023px) {
         #logo {
-            width: 24rem;
-            min-width: 24rem;
-            padding-top: 20vh;
-            padding-bottom: 24px;
+            width: 21rem;
+            min-width: 21rem;
+            padding-top: 12vh;
+            padding-bottom: 16px;
          margin: 0 auto;
         }
         #logo-text {
             width: 26rem;
             min-width: 26rem;
             padding-top: 16px;
-           margin: 0 auto;
+           margin: 0 auto 32px;
         }
         } /* end media query max 1023 px */
         } /* end media query min 851px */
