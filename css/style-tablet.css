@@ -112,7 +112,7 @@ h5 {
     Index
 ************************************************* */
 
-.intro-text p {
+#intro-text p {
     font-size: 1.6rem;
     font-weight: 400;
 }
