@@ -9,11 +9,11 @@
     @media  (min-width: 640px ) {
     
            #logo.small-tablet{
-            width: 21rem;
-            min-width: 21rem;
-            padding-top: 12vh;
+            width: 18rem;
+            min-width: 18rem;
+            padding-top: 8vh;
             padding-bottom: 24px;
-         margin: 0 auto 16px;
+         margin: 0 auto;
         }
         #logo-text.small-tablet{
             width: 24rem;
