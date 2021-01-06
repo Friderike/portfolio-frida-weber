@@ -63,7 +63,7 @@ body {
        margin: 0 auto;
     }
  }
-
+/*
  @media  (max-width: 850px ) {
     @media  (min-width: 640px ) {
     
@@ -86,7 +86,7 @@ body {
         } 
 
     }
-    } 
+    } */
    
     .mobile-profile {
         width: 28%;
