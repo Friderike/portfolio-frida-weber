@@ -29,6 +29,26 @@
     }
     } 
 
+    @media (min-width: 851px) {
+        @media (max-width: 1023px) {
+        #logo {
+            width: 24rem;
+            min-width: 24rem;
+            padding-top: 20vh;
+            padding-bottom: 24px;
+         margin: 0 auto;
+        }
+        #logo-text {
+            width: 26rem;
+            min-width: 26rem;
+            padding-top: 16px;
+           margin: 0 auto;
+        }
+        } /* end media query max 1023 px */
+        } /* end media query min 851px */
+        
+        
+
 @media  (max-width: 1024px ) {
 @media  (min-width: 640px ) {
 
@@ -39,20 +59,6 @@
         overflow-x: hidden;
         padding-top: 32px;
    }
-
-#logo {
-    width: 24rem;
-    min-width: 24rem;
-    padding-top: 20vh;
-    padding-bottom: 24px;
- margin: 0 auto;
-}
-#logo-text {
-    width: 26rem;
-    min-width: 26rem;
-    padding-top: 16px;
-   margin: 0 auto;
-}
 
 .wrapper {
     width: 89%;
