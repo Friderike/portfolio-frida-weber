@@ -11,9 +11,9 @@
            #logo.small-tablet{
             width: 21rem;
             min-width: 21rem;
-            padding-top: 20vh;
+            padding-top: 16vh;
             padding-bottom: 24px;
-         margin: 0 auto;
+         margin: 0 auto 24px;
         }
         #logo-text.small-tablet{
             width: 24rem;
