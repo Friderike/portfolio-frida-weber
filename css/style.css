@@ -164,7 +164,7 @@ h5 {
 .small-bodytext {
     font-size: 1.2rem;
     font-weight: 300;
-    padding: 0 5px 0 0;
+    padding: 16px 5px 0 0;
   display: inline-block
 
 }
@@ -468,6 +468,7 @@ display: flex;
 
  .primes-1 {
     background-color: #FAF7F5;
+    margin-right: -24px;
     }
     
 .primes-2 {
@@ -476,6 +477,7 @@ display: flex;
     
 .seconds-1 {
 background-color: #E693A5;
+margin-right: -24px;
 }
 
 .seconds-2 {
@@ -504,11 +506,14 @@ height: 130px;
     display: flex;
     justify-content: space-between;
 }
-.container-color-swatches .small-bodytext {
-    padding-top: 16px;
-    justify-content: space-between;
-}
 
+.xtra-small-bodytext {
+    font-size: 1.4rem;
+    font-weight: 300;
+  padding:0;
+  margin-top: 16px;
+  justify-content: space-between;
+  } 
 .box-accent {
     height: 32px;
     width: 100%;
@@ -533,13 +538,10 @@ height: 130px;
     font-size: 1.6rem;
  display: block;
     padding: 0;
+    margin-top: 16px;
 }
-.xtra-small-bodytext{
-    font-size: 1.4rem;
-    font-weight: 300;
-  padding: 0;
-  
-} 
+
+
 .brand-logo {
     width: 43%;
     max-width: 509px;
@@ -557,6 +559,9 @@ height: 130px;
 }
 .title-colors-desktop {
     width: 300px;
+}
+.title-colors-desktop h4 {
+   padding-left: 24px;
 }
 
 /*******************************************/
