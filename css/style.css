@@ -298,6 +298,9 @@ header>nav {
 .grow:hover {
     transform: scale(1.1);  
 }
+.grow:focus {
+    transform: scale(1.1);  
+}
 .opacity-lower {
     transition: 0.3s opacity;
 }
@@ -690,7 +693,7 @@ height: 130px;
     text-align: center;
     padding: 4px;
     border-radius: 6px;
-    transition: 0.4s font-size;
+   
 }
 .container-button .button-resume {
     color: #08090c;
