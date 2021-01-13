@@ -221,6 +221,10 @@ width: 100%;
  display: block;
     padding: 0;
 }
+
+.padding-sides-bottom {
+    padding: 0 20% 32px 20%;
+}
    
    #thank-you-gcf .column-50 {
        width: 100%;

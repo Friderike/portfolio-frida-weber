@@ -1,8 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "portfolio frida weber"
+			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio frida weber"
+	}
 }

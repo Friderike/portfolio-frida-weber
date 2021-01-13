@@ -344,7 +344,9 @@ body {
     width: 100%;
 }
 
-
+.padding-sides-bottom {
+    padding: 0 20% 24px 20%;
+}
 
 /*******************************************/
     /* layout About*/
