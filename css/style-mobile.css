@@ -348,6 +348,17 @@ body {
     padding: 0 20% 24px 20%;
 }
 
+.column-end>h2 {
+    display: flex;
+justify-content: flex-start;
+margin-right: unset;
+}
+
+.column-end>p {
+    display: flex;
+justify-content: flex-start;
+}
+
 /*******************************************/
     /* layout About*/
 /*******************************************/

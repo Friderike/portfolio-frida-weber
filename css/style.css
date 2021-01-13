@@ -569,6 +569,18 @@ height: 130px;
 .padding-sides-bottom {
     padding: 0 20% 40px 20%;
 }
+
+.column-end>h2 {
+    display: flex;
+justify-content: flex-end;
+margin-right: 155px;
+}
+.column-end>p {
+    display: flex;
+justify-content: flex-end;
+}
+
+
 /*******************************************/
 /* layout aag*/
 /*******************************************/
