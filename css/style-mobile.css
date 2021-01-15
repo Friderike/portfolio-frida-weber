@@ -328,22 +328,6 @@ body {
     font-size: 1.2rem;  
 } 
 
-.mobile-100 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-}
-.mobile-100 .small-bodytext {
-    flex-wrap: wrap;
-   
-}
-.mobile-100 h4 {
-    display: block;
-    width: 100%;
-}
-
 .padding-sides-bottom {
     padding: 0 20% 24px 20%;
 }
