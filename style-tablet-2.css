@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    font-size: 62.5%;
+ scroll-behavior: smooth;
+}
+
+@media (max-width: 1024px) {
+    @media (min-width: 640px) {
+
+        h1 {
+            font-size: 4.2rem;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-size: 3.4rem;
+            font-weight: 300;
+        }
+
+        .logo {
+            height: 3.0rem;
+            padding-left: 16px;
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            font-weight: 300;
+        }
+
+        .section {
+            margin-bottom: 80px;
+        }
+       
+        .card-title {
+            font-size: 3rem;
+            font-weight: 300;
+        }
+
+        .space-p {
+            margin-bottom: 1.8rem;  
+          }
+
+        .column-65 {
+            width: 80%;
+        }
+        /*******************************************/
+        /* Email 2*/
+        /*******************************************/
+
+        .tickets {
+            width: 22% ;
+            margin-bottom: 24px;
+        }
+
+        .event-card {
+            padding: 7rem;
+            height: 41.8rem ;
+            margin-top: -7rem;
+        }
+        
+        .event-title {
+            font-size: 3.6rem ;
+            margin-bottom: 8px;
+        }
+
+        .event-logo {
+            width: 25.3rem;
+            height: 14.4rem;
+            background-color: white ;
+            opacity: 0.6;
+            margin-top: 7.2rem;
+            text-align: center;
+           padding: 5.8rem 0;
+        }
+
+        .event-logo p{
+            color: #272727;
+            font-size: 2.2rem;
+        }
+
+        .card {
+            height: 20.9rem;
+            margin-top: 4.8rem;
+            background-color: #3A3939;
+            padding: 3.2rem ;
+        }
+
+    }
+}
+
+@media (max-width: 819px ) {
+    .event-title {
+        font-size: 2.8rem ;
+        margin-bottom: 8px;
+    }
+    .event-card {
+        margin-top: -6.5rem;
+    }
+
+}
+@media (max-width: 679px ) {
+    .event-title {
+        font-size: 2.7rem ;
+        margin-bottom: 8px;
+    }
+}
+
