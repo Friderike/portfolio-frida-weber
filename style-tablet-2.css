@@ -37,9 +37,8 @@ html {
             margin-bottom: 80px;
         }
        
-        .card-title {
-            font-size: 3rem;
-            font-weight: 300;
+        .space-bottom {
+            margin-bottom: 40px;
         }
 
         .space-p {
@@ -52,18 +51,23 @@ html {
         /*******************************************/
         /* Email 2*/
         /*******************************************/
-
-        .tickets {
-            width: 22% ;
-            margin-bottom: 24px;
-        }
-
-        .event-card {
-            padding: 7rem;
-            height: 41.8rem ;
-            margin-top: -7rem;
-        }
+    
+        .Event-card-container {
+            background-color: #3A3939;
+            height:582px ;
+            padding: 0rem 8rem 4.8rem;
+            margin-top: 246px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
         
+        .tickets {
+            width: 182px;
+            height: 226px ;
+            margin-top: -180px;
+        }
+
         .event-title {
             font-size: 3.6rem ;
             margin-bottom: 8px;
@@ -86,21 +90,28 @@ html {
 
         .card {
             height: 20.9rem;
-            margin-top: 4.8rem;
             background-color: #3A3939;
             padding: 3.2rem ;
+        }
+
+        .card-title {
+            font-size: 3rem;
+            font-weight: 300;
         }
 
     }
 }
 
-@media (max-width: 819px ) {
+@media (max-width: 842px ) {
     .event-title {
-        font-size: 2.8rem ;
+        font-size: 3rem ;
         margin-bottom: 8px;
     }
-    .event-card {
-        margin-top: -6.5rem;
+
+    .tickets {
+        height: 150px ;
+        width: 186px;
+        margin-top: -180px;
     }
 
 }
