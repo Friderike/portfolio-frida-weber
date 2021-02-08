@@ -7,6 +7,8 @@ const navSlide = ()=> {
    const navS = $(`.slide`)[0];
    const close = $(`.close`)[0]; 
    const body = $(`body`)[0];
+   const work = $(`.work`)[0];
+   const contact = $(`.contact`)[0];
    //console.log(navS)
    // $ is equal to document.querySelector or document.querySelectorAll
    
@@ -17,7 +19,14 @@ const navSlide = ()=> {
  
    close.addEventListener(`click`, () => {
        navS.classList.toggle(`slide-active`);
-   });
+   }); 
+
+   work.addEventListener(`click`, () => {
+       navS.classList.toggle(`slide-active`)
+   })
+   contact.addEventListener(`click`, () => {
+       navS.classList.toggle(`slide-active`)
+   })
    
 } 
 navSlide();

@@ -44,7 +44,7 @@ body {
         padding-top: 16px;
 	}
 
-.bg {
+.bg-m-index-header {
   min-width: 100%;
     min-height: 5rem;
     background: #08090c;
@@ -113,6 +113,25 @@ body {
    top: 0%;
    z-index: 3;
  }
+
+ #logo-slide-index {
+    min-width: unset;
+    width: 100px;
+    margin-top: 50vh;
+    padding-top: 12vh;
+    padding-bottom: 16px;
+    margin: 50vh auto 0;
+    position: sticky;
+
+ }
+
+ #logo-spin-slide-index {
+    animation: spin 25s linear infinite,
+    opacity 3s linear;
+        transform-origin: center;  
+        
+ }
+
 .slide ul {
     width: 30%;
     position: absolute;
@@ -299,7 +318,7 @@ body {
    } 
    
 .brand-logo {
-    width: 43%;
+    width: 60%;
     max-width: 509px;
     margin: 0 auto 0px;
     padding-top: 0px
@@ -335,8 +354,15 @@ body {
         height: 75px;
     }
 
+    .colors .small-bodytext {
+        font-size: 1.2rem;
+     display: block;
+        padding: 0;
+        margin-top: 16px;
+    }
+
 .xtra-small-bodytext{
-    font-size: 1.2rem;  
+    font-size: 1rem;  
 } 
 
 .padding-sides-bottom {
@@ -450,13 +476,12 @@ padding-bottom: 16px;
     /* footer */
 /*******************************************/
 
-
 	.footer {
         margin-top: 48px; 
 	}	
 	
  .footer-content {
-    width: 89%;
+    width: 90%;
     margin: 0 auto;
  }
 
