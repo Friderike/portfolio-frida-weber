@@ -23,12 +23,13 @@ body {
      line-height: 2.2rem;
      font-weight: 300;
      overflow-x: hidden;
-     padding-top: 24px;
+     padding-top: 16px;
 }
 
     header {
-        height: 8rem;
+        height: 5rem;
         margin-bottom: 32px;
+        padding: 16px 5% 0;
     }
    
     header.index {
@@ -36,15 +37,23 @@ body {
          min-width: 100%;
         padding: 0px 20px;
     } 
+
     .wrapper {
-		width: 89%;
+		width: 90%;
         margin: 0 auto;
         padding-top: 16px;
 	}
 
-    header.wrapper {
-        padding-top: 0%;
-        }
+.bg {
+  min-width: 100%;
+    min-height: 5rem;
+    background: #08090c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    z-index: 2;
+}
 
 @media (max-width: 639px) {
     #logo {
@@ -64,7 +73,6 @@ body {
     }
  }
 
-   
     .mobile-profile {
         width: 28%;
         height: 28%;
@@ -74,6 +82,8 @@ body {
     .hamburger {
         width: 28px;
        cursor: pointer;
+       position: fixed;
+       top: 16px;
       }
       .close {  
           display: inline-block;

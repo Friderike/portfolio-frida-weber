@@ -62,7 +62,6 @@ nav.hidden-on-mobile {
     min-width: 15rem;
     padding-top: 20vh;
    margin: 0 auto;
-   
 }
 #logo-text {
     width: 30rem;
@@ -81,7 +80,8 @@ nav.hidden-on-mobile {
 #logo-spin {
     animation: spin 25s linear infinite,
 opacity 3s linear;
-    transform-origin: center;    
+    transform-origin: center;   
+
 }
 
 .opacity-in {
